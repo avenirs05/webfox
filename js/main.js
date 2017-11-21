@@ -22,7 +22,7 @@ $(function () {
     // Прокручивание до нужного раздела 
     $(linkDesk + ',' + linkMob).click(function(event) {           
         $(this).css('color', colorClicked);
-        var fixed_offset = 55;
+        var fixed_offset = 65;
         $('html,body').stop().animate({ scrollTop: $(this.hash).offset().top - fixed_offset}, 1,
             function(){
                 $('.collapse').collapse('hide');
@@ -68,4 +68,17 @@ $(function () {
     }
 
 
+    // Сделать фон navbar при прокрутке
+    $(window).scroll(function () {
+      if ( $(window).scrollTop() !== 0) {
+        $("#navbar").css("backgroundColor", "#000");
+      } else $("#navbar").css("backgroundColor", "transparent");      
+    }); 
+
+    $(window).scroll(function () {
+      if ( $(window).scrollTop() !== 0) {
+        $("#navbar-mob").css("backgroundColor", "#000");
+      } else $("#navbar-mob").css("backgroundColor", "transparent");      
+    }); 
+    
 });

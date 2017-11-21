@@ -1,29 +1,11 @@
 ﻿<?php require_once 'layouts/header.php'; ?>
 
-<!-- particles.js container -->
-<div id="particles-js"></div>
-
-<!-- Main-screen for desktop -->
-<div class="container-fluid d-none d-lg-block main-screen">
-	<div class="row">
-		<div class="col-8 headers">
-			<h1>Подключение к UBER</h1>
-			<p id="for-30-min">за 30 минут</p>
-			<h2>Официальный партнер UBER в Украине</h2>
-			<h2>Честная комиссия – от 2%</h2>
-		</div>
-		<div class="col-4">
-			<?php require 'layouts/form-main-desk.php'; ?>
-		</div>
-	</div>		    
-</div>
-
 <!-- Main-screen for mobile -->
 <div class="container-fluid d-lg-none main-screen-mob">
 	<div class="row">
 		<div class="col">
 			<a href="/"><img class="logo-mob" src="imgs/logo.png" height="40" alt=""></a>
-			<h1 class="text-center">Подключение к UBER</h1>
+			<h1 class="text-center">Создаём веб-сайты "под ключ"</h1>
 			<p class="text-center" id="for-30-min-mob">за 30 минут</p>
 			<h2 class="text-center">Официальный партнер UBER в Украине</h2>
 			<h2 class="text-center">Честная комиссия – от 2%</h2>
