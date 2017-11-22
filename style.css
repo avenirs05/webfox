@@ -61,8 +61,8 @@ ul, li, span {
 }
 
 #navbar.header {
-	padding-top: 15px;
-	padding-bottom: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 #navbar .logo {
@@ -72,6 +72,14 @@ ul, li, span {
 	padding: 0px 10px;
 	color: rgb(255, 153, 0);
 	font-weight: bold;
+}
+
+#navbar .logo-text {
+	padding-bottom: 1px;
+}
+
+#navbar .logo-img {
+	margin-right: 9px;
 }
 
 .header {
@@ -391,12 +399,30 @@ button[type="submit"]:hover {
 	#particles-js .headers {
 	    margin-top: -10px;
 	}
+	#particles-js .headers-wrap {
+		position: absolute;
+		top: 150px;
+	}
 	#particles-js .headers-wrap h1 {
 	    font-size: 28px;
 	    line-height: 1.5em;
 	}
 	#particles-js .headers-wrap h2 {
 	    font-size: 18px;
+	}
+	#particles-js .logo-wrap-mob {
+	    top: 55px;
+	    color: rgb(255, 153, 0);
+	    font-weight: bold;
+	}
+	#particles-js .logo-wrap-mob .logo-img {
+			margin-right: 7px;
+	}
+	#particles-js .logo-wrap-mob .logo-img img {
+			padding-bottom: 2px;
+	}
+	#particles-js .logo-text {
+			font-size: 18px;
 	}
 }
 
@@ -428,6 +454,10 @@ button[type="submit"]:hover {
 		font-size: 28px;
 		margin-top: -7px;
 	}
+	#particles-js .headers-wrap {
+		position: absolute;
+		top: 200px;
+	}
 }
 
 @media screen and (min-device-width: 768px) {
@@ -438,6 +468,10 @@ button[type="submit"]:hover {
 	.main-screen-mob #for-30-min-mob {
 		font-size: 32px;
 		margin-top: -7px;
+	}
+	#particles-js .headers-wrap {
+		position: absolute;
+		top: 250px;
 	}
 }
 

@@ -30,8 +30,10 @@
       <div id="navbar" class="container-fluid sticky-top header d-none d-lg-block">
         <nav class="row">
             <div class="col-auto d-flex align-items-center">
-              <!-- <a href="/"><img src="/imgs/logo-fox.png" height="24" alt=""></a> -->
-              <div class="logo">WEB FOX</div>
+              <div class="logo d-flex align-items-center">
+                <a class="logo-img" href="/"><img src="/imgs/logo-fox.png" height="24" alt=""></a>
+                <div class="logo-text">SMART FOX</div>
+              </div>
             </div>
             <ul class="col d-flex align-items-center list-unstyled list-inline">
               <li class="list-inline-item"><a href="/#why-uber-section" id="why-uber-link">Почему мы</a></li>
@@ -48,6 +50,13 @@
             </div>
         </nav>
       </div> 
+      <!-- Mobile-logo -->
+      <div class="col-auto d-flex align-items-center d-lg-none logo-wrap-mob">
+        <div class="logo d-flex align-items-center">
+          <a class="logo-img" href="/"><img src="/imgs/logo-fox.png" height="24" alt=""></a>
+          <div class="logo-text">SMART FOX</div>
+        </div>
+      </div>
       <!-- И мобайл, и Десктоп -->
       <div class="container-fluid headers-wrap">
         <div class="row">
@@ -90,6 +99,6 @@
           <img class="viber-icon" src="imgs/viber.png" width="12" height="14" alt="">
           <img src="imgs/telegram.png" width="14" height="14" alt="">       
         </nav>       
-      </div>  
+      </div> 
     </div>
 

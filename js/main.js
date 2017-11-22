@@ -22,7 +22,7 @@ $(function () {
     // Прокручивание до нужного раздела 
     $(linkDesk + ',' + linkMob).click(function(event) {           
         $(this).css('color', colorClicked);
-        var fixed_offset = 65;
+        var fixed_offset = 55;
         $('html,body').stop().animate({ scrollTop: $(this.hash).offset().top - fixed_offset}, 1,
             function(){
                 $('.collapse').collapse('hide');

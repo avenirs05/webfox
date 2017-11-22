@@ -4,7 +4,7 @@
 <div class="container-fluid d-lg-none main-screen-mob">
 	<div class="row">
 		<div class="col">
-			<a href="/"><img class="logo-mob" src="imgs/logo.png" height="40" alt=""></a>
+			<!-- <a href="/"><img class="logo-mob" src="imgs/logo.png" height="40" alt=""></a> -->
 			<h1 class="text-center">Создаём веб-сайты "под ключ"</h1>
 			<p class="text-center" id="for-30-min-mob">за 30 минут</p>
 			<h2 class="text-center">Официальный партнер UBER в Украине</h2>
