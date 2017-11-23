@@ -127,25 +127,25 @@ ul, li, span {
 }
 
 form {
-    border: 2px solid rgb(255, 255, 153);
-    padding: 15px;
-    border-radius: 7px;
-    color: rgb(255, 255, 255);
-    margin-top: 35px;
-    font-weight: 600;
-    font-size: 18px;
+  border: 2px solid rgb(255, 255, 153);
+  padding: 15px;
+  border-radius: 7px;
+  color: rgb(255, 255, 255);
+  margin-top: 35px;
+  font-weight: 600;
+  font-size: 18px;
 }
 
-#modal-fit form,
-#modal-fit-mob form {
+#modal-desk form,
+#modal-mob form {
 	color: #000;
 	background: #f3f3f3;
 	border: 1px solid grey;
 	margin-top: -15px;
 }
 
-#modal-fit a,
-#modal-fit-mob a {
+#modal-desk a,
+#modal-mob a {
 	color: #000;
 }
 
@@ -155,7 +155,6 @@ form {
 }
 
 button[type="submit"] {
-	/*width: 100%;*/
 	padding-left: 20px;
 	padding-right: 20px;
 	cursor: pointer;
@@ -168,6 +167,14 @@ button[type="submit"] {
 
 button[type="submit"]:hover {
 	background-color: #E7382B;
+}
+
+#modal-desk .btn-send,
+#modal-mob .btn-send {
+	width: 100%;
+	color: #fff;
+	border-radius: 3px;
+	letter-spacing: 1px;
 }
 
 .form-check {
@@ -431,6 +438,9 @@ button[type="submit"]:hover {
 		font-size: 24px;
 		margin-top: -10px;
 	}
+	#btn-get-consult {
+		font-size: 18px;
+	}
 }
 
 @media screen and (min-device-width: 360px) {
@@ -441,6 +451,9 @@ button[type="submit"]:hover {
 	.main-screen-mob #for-30-min-mob {
 		font-size: 26px;
 		margin-top: -7px;
+	}
+	#btn-get-consult {
+		font-size: 22px;
 	}
 
 }
@@ -491,6 +504,10 @@ button[type="submit"]:hover {
 	}
 	.main-screen .headers h1 {
 		font-size: 62px;
+	}
+	#particles-js .headers-wrap {
+		position: absolute;
+		top: 100px;
 	}
 }
 

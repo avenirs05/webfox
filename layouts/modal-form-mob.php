@@ -1,4 +1,4 @@
-<div id="modal-fit-mob" class="modal" tabindex="-1" role="dialog">
+<div id="modal-mob" class="modal" tabindex="-1" role="dialog">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -7,7 +7,7 @@
         </button>
       </div>
       <div class="modal-body">
-        <?php require 'form-main-mob.php'; ?>
+        <?php require 'form-main-desk.php'; ?>
       </div>
     </div>
   </div>

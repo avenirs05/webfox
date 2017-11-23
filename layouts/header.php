@@ -53,7 +53,7 @@
       <!-- Mobile-logo -->
       <div class="col-auto d-flex align-items-center d-lg-none logo-wrap-mob">
         <div class="logo d-flex align-items-center">
-          <a class="logo-img" href="/"><img src="/imgs/logo-fox.png" height="24" alt=""></a>
+          <img class="logo-img" src="/imgs/logo-fox.png" height="24" alt="">
           <div class="logo-text">SMART FOX</div>
         </div>
       </div>
@@ -69,8 +69,8 @@
         </div>   
         <div class="row text-center">
           <div class="col col-lg-12 ml-auto mr-auto">
-            <button id="btn-fit" type="submit" class="btn btn-primary d-none d-lg-block ml-auto mr-auto">Получить консультацию</button>
-            <button id="btn-fit-mob" type="submit" class="btn btn-primary d-lg-none ml-auto mr-auto">Оставить заявку</button>
+            <button id="btn-get-consult" type="submit" class="btn btn-primary ml-auto mr-auto">Получить консультацию</button>
+<!--             <button id="btn-mob" type="submit" class="btn btn-primary d-lg-none ml-auto mr-auto">Оставить заявку</button> -->
           </div>  
         </div>     
       </div>  

@@ -38,8 +38,8 @@
 
 $headers = 'MIME-Version: 1.0' . "\r\n";
 $headers .= 'Content-type: text/html; charset=utf-8' . "\r\n";
-$to = 'info@uberline.in.ua';
-$subject = "Заявка с сайта uberline.in.ua (desktop)";
+$to = 'domosed365365@gmail.com';
+$subject = "Заявка с сайта smartfox (desktop)";
 
 
 $message = '<html><head><title></title></head><body>
@@ -47,8 +47,7 @@ $message = '<html><head><title></title></head><body>
                     '<b>Имя:</b> ' . $_POST['name'] . '<br><br>' .
                     '<b>Телефон:</b> ' . $_POST['phone'] . '<br><br>' .  
                     '<b>Email:</b> ' . $_POST['email'] . '<br><br>' .
-                    '<b>Марка и модель авто:</b> ' . $_POST['brand-and-model'] . '<br><br>' .
-                    '<b>Год выпуска авто:</b> ' . $_POST['year'] . '<br><br>' .
+                    '<b>Сообщение:</b> ' . $_POST['question'] . '<br><br>' .
                     '</body></html>';
 
 mail($to, $subject, $message, $headers);

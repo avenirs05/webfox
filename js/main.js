@@ -49,24 +49,27 @@ $(function () {
 
     // Маска ввода номера телефона
     $(".phone-field").mask("(+380) 99-999-99-99");
-    $(".phone-field-mob").mask("(+380) 99 999 99 99", {placeholder: " " });
- 
+    $(".phone-field-mob").mask("(+380) 99 999 99 99", {placeholder: " " }); 
     
 
     // Модальное окно bootstrap
-    $('#btn-fit').click(function() { 
-        $('#modal-fit').modal('show'); 
+    $('#btn-get-consult').click(function() { 
+        $('.headers-wrap').hide(); // когда появляется попап, заголовки исчезают
+        $('#modal-desk').modal('show'); 
     });
-    $('#btn-fit-mob').click(function() { 
-        $('#modal-fit-mob').modal('show'); 
+    // $('#btn-mob').click(function() { 
+    //     $('#modal-mob').modal('show'); 
+    // });
+
+    // Когда закрываем модальное окно, заголовки появляются
+    $('.close').click(function() { 
+        $('.headers-wrap').show();
     });
-    
 
     //Прижать футер к низу
     if ($(document).height() <= $(window).height()) {
       $(".footer").addClass("fixed-bottom");
     }
-
 
     // Сделать фон navbar при прокрутке
     $(window).scroll(function () {
