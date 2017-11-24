@@ -28,7 +28,7 @@
 	font-weight: 600;
 	font-size: 48px;
 	line-height: 1.7em;
-	font-weight: bold;
+	font-weight: 900;
 }
 
 #particles-js .headers-wrap h2 {
@@ -132,16 +132,18 @@ form {
   font-size: 18px;
 }
 
-#modal-desk form,
-#modal-mob form {
+#modal-form-desk form,
+#modal-form-mob form,
+#modal-callback-desk form,
+#modal-callback-mob form {
 	color: #000;
 	background: #f3f3f3;
 	border: 1px solid grey;
 	margin-top: -15px;
 }
 
-#modal-desk a,
-#modal-mob a {
+#modal-form-desk a,
+#modal-form-mob a {
 	color: #000;
 }
 
@@ -165,11 +167,13 @@ button[type="submit"]:hover {
 	background-color: #E7382B;
 }
 
-#modal-desk .btn-send,
-#modal-mob .btn-send {
+#modal-form-desk .btn-send,
+#modal-form-mob .btn-send,
+#modal-form-desk .btn-send,
+#modal-form-mob .btn-send {
 	width: 100%;
 	color: #fff;
-	border-radius: 3px;
+	border-radius: 5px;
 	letter-spacing: 1px;
 }
 
@@ -325,6 +329,39 @@ button[type="submit"]:hover {
 	background-color: #000;
 }
 
+#btn-callback-desk {
+	background: transparent none repeat scroll 0% 0%;
+	color: rgb(255, 255, 255);
+	border: 2px solid rgb(255, 255, 255);
+	border-radius: 3px;
+	margin-right: 25px;
+	cursor: pointer;
+	padding-bottom: 1px;
+}
+
+#btn-callback-desk:hover {
+	background-color: #E7382B;
+}
+
+#btn-callback-mob:active {
+	background-color: #E7382B;
+}
+
+#btn-callback-mob {
+	background: transparent none repeat scroll 0% 0%;
+	color: rgb(255, 255, 255);
+	border: 2px solid rgb(255, 255, 255);
+	border-radius: 3px;
+	padding-bottom: 2px;
+}
+
+#modal-callback-desk .btn-send,
+#modal-callback-mob .btn-send {
+	color: #fff;
+	width: 100%;	
+	border-radius: 5px;
+}
+
 @media screen and (max-device-width: 991px) {
 	.navbar {
 		padding-left: 0;
@@ -441,6 +478,9 @@ button[type="submit"]:hover {
 	#btn-get-consult-mob {
 		font-size: 18px;
 	}
+	#btn-callback-mob {
+		font-size: 14px;
+	}
 }
 
 @media screen and (min-device-width: 360px) {
@@ -454,6 +494,9 @@ button[type="submit"]:hover {
 	}
 	#btn-get-consult-mob {
 		font-size: 22px;
+	}
+	#btn-callback-mob {
+		font-size: 16px;
 	}
 
 }

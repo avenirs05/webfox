@@ -19,11 +19,17 @@
   </head>
 
   <body>	    
-    <!-- Модальное окно десктоп -->
+    <!-- Модальное окно десктоп - основная форма -->
     <?php require 'modal-form-desk.php'; ?> 
 
-    <!-- Модальное окно мобайл -->
+    <!-- Модальное окно мобайл - основная форма -->
     <?php require 'modal-form-mob.php'; ?>
+
+    <!-- Модальное окно десктоп - обратный звонок -->
+    <?php require 'modal-callback-desk.php'; ?>
+
+    <!-- Модальное окно мобайл - обратный звонок -->
+    <?php require 'modal-callback-mob.php'; ?>
 
     <div id="particles-js">
       <!-- Desktop -->
@@ -38,10 +44,11 @@
             <ul class="col d-flex align-items-center list-unstyled list-inline">
               <li class="list-inline-item"><a href="/#why-uber-section" id="why-uber-link">Почему мы</a></li>
               <li class="list-inline-item"><a href="/#req-drivers-section" id="req-drivers-link">Наши работы</a></li>
-              <li class="list-inline-item"><a href="/#req-auto-section" id="req-auto-link">Цены</a></li>
-              <li class="list-inline-item"><a href="/#our-commission-section" id="our-commission-link">Обратный звонок</a></li>
+              <li class="list-inline-item"><a href="/#req-auto-section" id="req-auto-link">Цены</a></li> 
+              <li class="list-inline-item"><a href="/#change-partner-section" id="change-partner-link">Частые вопросы</a></li>       
             </ul>
-            <div class="col-auto d-flex align-items-center justify-content-end contacts">           
+            <div class="col-auto d-flex align-items-center justify-content-end contacts">
+              <button id="btn-callback-desk">Обратный звонок</button>           
               <img class="phone-icon" src="imgs/phone.svg" width="17" height="17" alt="">
               <div class="phone-digits">+380 99 290 00 50</div>
               <img class="whatsapp-icon" src="imgs/whatsapp.svg" width="18" height="18" alt="">
@@ -50,12 +57,13 @@
             </div>
         </nav>
       </div> 
-      <!-- Mobile-logo -->
+      <!-- Mobile - logo and btn-callback  -->
       <div class="col-auto d-flex align-items-center d-lg-none logo-wrap-mob">
         <div class="logo d-flex align-items-center">
           <img class="logo-img" src="/imgs/logo-fox.png" height="24" alt="">
-          <div class="logo-text">SMART FOX</div>
+          <div class="logo-text">SMART FOX</div>          
         </div>
+        <button class="ml-auto" id="btn-callback-mob">Обратный звонок</button>
       </div>
       <!-- И мобайл, и Десктоп -->
       <div class="container-fluid headers-wrap">
@@ -69,7 +77,7 @@
         </div>   
         <div class="row text-center">
           <div class="col col-lg-12 ml-auto mr-auto">
-            <button id="btn-get-consult" type="submit" class="btn btn-primary ml-auto mr-auto d-none d-lg-block">Получить консультацию</button>
+            <button id="btn-get-consult-desk" type="submit" class="btn btn-primary ml-auto mr-auto d-none d-lg-block">Получить консультацию</button>
             <button id="btn-get-consult-mob" type="submit" class="btn btn-primary ml-auto mr-auto d-lg-none">Получить консультацию</button>
           </div>  
         </div>     
@@ -83,7 +91,7 @@
               <li><a href="#why-uber-section" id="why-uber-link-mob">Почему мы</a></li><br>
               <li><a href="#req-drivers-section" id="req-drivers-link-mob">Наши работы</a></li><br>
               <li><a href="#req-auto-section" id="req-auto-link-mob">Цены</a></li><br>
-              <li><a href="#our-commission-section" id="our-commission-link-mob">Обратный звонок</a></li> 
+              <li><a href="#our-commission-section" id="our-commission-link-mob">Частые вопросы</a></li> 
             </ul>
           </div>
         </div>

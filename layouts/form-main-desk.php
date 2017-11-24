@@ -5,7 +5,7 @@
   </div>
   <div class="form-group">
     <label>Телефон<span class="red">*</span></label>
-    <input id="phone-field" type="text" class="phone-field form-control" placeholder="Введите номер телефона" name="phone" required>
+    <input id="phone-field-desk" type="text" class="phone-field-desk form-control" placeholder="Введите номер телефона" name="phone" required>
   </div>
   <div class="form-group">
     <label>Email</label>
