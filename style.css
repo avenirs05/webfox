@@ -49,7 +49,6 @@ ul, li, span {
 
 .red {
 	color: red;
-
 }
 
 .navbar {
@@ -147,7 +146,7 @@ form {
 	color: #000;
 }
 
-/*Модальное окно Bootstrap 4*/
+/*Модальное окно Bootstrap 4 - native class*/
 .modal-header {
 	border: none;
 }
@@ -498,6 +497,10 @@ button[type="submit"]:hover {
 	#btn-callback-mob {
 		font-size: 16px;
 	}
+	#particles-js .headers-wrap {
+		position: absolute;
+		top: 200px;
+	}
 
 }
 
@@ -509,10 +512,6 @@ button[type="submit"]:hover {
 	.main-screen-mob #for-30-min-mob {
 		font-size: 28px;
 		margin-top: -7px;
-	}
-	#particles-js .headers-wrap {
-		position: absolute;
-		top: 200px;
 	}
 }
 
@@ -526,8 +525,13 @@ button[type="submit"]:hover {
 		margin-top: -7px;
 	}
 	#particles-js .headers-wrap {
-		position: absolute;
-		top: 250px;
+		top: 300px;
+	}
+	#particles-js .headers-wrap h1 {
+	    font-size: 42px;
+	}
+	#particles-js .headers-wrap h2 {
+	    font-size: 22px;
 	}
 }
 
