@@ -48,7 +48,7 @@
               <li class="list-inline-item"><a href="/#change-partner-section" id="change-partner-link">Частые вопросы</a></li>       
             </ul>
             <div class="col-auto d-flex align-items-center justify-content-end contacts">
-              <button id="btn-callback-desk">Обратный звонок</button>           
+              <!-- <button id="btn-callback-desk">Обратный звонок</button> -->           
               <img class="phone-icon" src="imgs/phone.svg" width="17" height="17" alt="">
               <div class="phone-digits">+380 99 290 00 50</div>
               <img class="whatsapp-icon" src="imgs/whatsapp.svg" width="18" height="18" alt="">
@@ -65,6 +65,8 @@
         </div>
         <button class="ml-auto" id="btn-callback-mob">Обратный звонок</button>
       </div>
+      <!-- Desktop - Кнопка "Обратный звонок" -->
+      <button class="d-none d-lg-block" id="btn-callback-desk">Обратный звонок</button>
       <!-- И мобайл, и Десктоп -->
       <div class="container-fluid headers-wrap">
         <div class="row">
