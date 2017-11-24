@@ -60,14 +60,16 @@ $(function () {
         $('.headers-wrap').hide(); // когда появляется попап, заголовки исчезают
         $('#modal-form-desk').modal('show'); 
     });
-    $('#btn-get-consult-mob').click(function() { 
+    $('#btn-get-consult-mob').click(function() {         
         $('#modal-form-mob').modal('show'); 
     });
     // Кнопка "Обратный звонок"
     $('#btn-callback-desk').click(function() { 
+        $('.headers-wrap').hide(); // когда появляется попап, заголовки исчезают
         $('#modal-callback-desk').modal('show'); 
     });
-    $('#btn-callback-mob').click(function() { 
+    $('#btn-callback-mob').click(function() {
+        $('#btn-get-consult-mob').hide(); // когда появляется попап, кнопка "Получить консультацию" исчезает       
         $('#modal-callback-mob').modal('show'); 
     });
     // Модальное окно bootstrap
@@ -94,6 +96,13 @@ $(function () {
     $('#modal-form-desk .close').click(function() { 
         $('.headers-wrap').show();
     });
+    $('#modal-callback-desk .close').click(function() { 
+        $('.headers-wrap').show();
+    });
+    $('#modal-callback-mob .close').click(function() { 
+        $('#btn-get-consult-mob').show();
+    });
+
 
     //Прижать футер к низу
     if ($(document).height() <= $(window).height()) {
