@@ -38,17 +38,16 @@
 
 $headers = 'MIME-Version: 1.0' . "\r\n";
 $headers .= 'Content-type: text/html; charset=utf-8' . "\r\n";
-$to = 'info@uberline.in.ua';
-$subject = "Заявка с сайта uberline.in.ua (mobile)";
+$to = 'domosed365365@gmail.com';
+$subject = "Заявка с сайта smartfox (mobile)";
 
 
 $message = '<html><head><title></title></head><body>
-                    <strong>Тема: заявка с сайта uberline.in.ua (mobile)</strong><br><br><br>' .
-                    '<b>Имя:</b> ' . $_POST['name-mob'] . '<br><br>' .
-                    '<b>Телефон:</b> ' . $_POST['phone-mob'] . '<br><br>' .  
-                    '<b>Email:</b> ' . $_POST['email-mob'] . '<br><br>' .
-                    '<b>Марка и модель авто:</b> ' . $_POST['brand-and-model-mob'] . '<br><br>' .
-                    '<b>Год выпуска авто:</b> ' . $_POST['year-mob'] . '<br><br>' .
+                    <strong>Тема: заявка с сайта smartfox (mobile)</strong><br><br><br>' .
+                    '<b>Имя:</b> ' . $_POST['name'] . '<br><br>'      .
+                    '<b>Телефон:</b> ' . $_POST['phone'] . '<br><br>' .  
+                    '<b>Email:</b> ' . $_POST['email'] . '<br><br>'   .
+                    '<b>Сообщение:</b> ' . $_POST['question']         .
                     '</body></html>';
 
 mail($to, $subject, $message, $headers);

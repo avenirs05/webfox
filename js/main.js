@@ -49,7 +49,7 @@ $(function () {
 
     // Маска ввода номера телефона
     $(".phone-field").mask("(+380) 99-999-99-99");
-    $(".phone-field-mob").mask("(+380) 99 999 99 99", {placeholder: " " }); 
+    $(".phone-field-mob").mask("(+380) 99 999 99 99", { placeholder: " " }); 
     
 
     // Модальное окно bootstrap
@@ -57,12 +57,20 @@ $(function () {
         $('.headers-wrap').hide(); // когда появляется попап, заголовки исчезают
         $('#modal-desk').modal('show'); 
     });
-    // $('#btn-mob').click(function() { 
-    //     $('#modal-mob').modal('show'); 
-    // });
+    $('#btn-get-consult-mob').click(function() { 
+        $('#modal-mob').modal('show'); 
+    });
 
-    // Когда закрываем модальное окно, заголовки появляются
-    $('.close').click(function() { 
+    // Фокус на поле "Телефон"
+    $('#modal-desk').on('shown.bs.modal', function () {
+      $('#phone-field').trigger('focus')
+    });
+    $('#modal-mob').on('shown.bs.modal', function () {
+      $('#phone-field-mob').trigger('focus')
+    });
+
+    // Когда закрываем модальное окно, заголовки появляются (в версии для десктопа)
+    $('#modal-desk .close').click(function() { 
         $('.headers-wrap').show();
     });
 
@@ -71,13 +79,12 @@ $(function () {
       $(".footer").addClass("fixed-bottom");
     }
 
-    // Сделать фон navbar при прокрутке
+    // Сделать фон navbar при прокрутке (десктоп и мобайл)
     $(window).scroll(function () {
       if ( $(window).scrollTop() !== 0) {
         $("#navbar").css("backgroundColor", "#000");
       } else $("#navbar").css("backgroundColor", "transparent");      
     }); 
-
     $(window).scroll(function () {
       if ( $(window).scrollTop() !== 0) {
         $("#navbar-mob").css("backgroundColor", "#000");

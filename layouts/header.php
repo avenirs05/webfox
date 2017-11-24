@@ -31,7 +31,7 @@
         <nav class="row">
             <div class="col-auto d-flex align-items-center">
               <div class="logo d-flex align-items-center">
-                <a class="logo-img" href="/"><img src="/imgs/logo-fox.png" height="24" alt=""></a>
+                <img class="logo-img" src="/imgs/logo-fox.png" height="24" alt="">
                 <div class="logo-text">SMART FOX</div>
               </div>
             </div>
@@ -39,7 +39,7 @@
               <li class="list-inline-item"><a href="/#why-uber-section" id="why-uber-link">Почему мы</a></li>
               <li class="list-inline-item"><a href="/#req-drivers-section" id="req-drivers-link">Наши работы</a></li>
               <li class="list-inline-item"><a href="/#req-auto-section" id="req-auto-link">Цены</a></li>
-              <li class="list-inline-item"><a href="/#our-commission-section" id="our-commission-link">Связаться с нами</a></li>
+              <li class="list-inline-item"><a href="/#our-commission-section" id="our-commission-link">Обратный звонок</a></li>
             </ul>
             <div class="col-auto d-flex align-items-center justify-content-end contacts">           
               <img class="phone-icon" src="imgs/phone.svg" width="17" height="17" alt="">
@@ -69,8 +69,8 @@
         </div>   
         <div class="row text-center">
           <div class="col col-lg-12 ml-auto mr-auto">
-            <button id="btn-get-consult" type="submit" class="btn btn-primary ml-auto mr-auto">Получить консультацию</button>
-<!--             <button id="btn-mob" type="submit" class="btn btn-primary d-lg-none ml-auto mr-auto">Оставить заявку</button> -->
+            <button id="btn-get-consult" type="submit" class="btn btn-primary ml-auto mr-auto d-none d-lg-block">Получить консультацию</button>
+            <button id="btn-get-consult-mob" type="submit" class="btn btn-primary ml-auto mr-auto d-lg-none">Получить консультацию</button>
           </div>  
         </div>     
       </div>  
@@ -78,13 +78,12 @@
       <!-- Mobile -->
       <div id="header-mob" class="pos-f-t sticky-top header d-lg-none">
         <div class="collapse" id="navbarToggleExternalContent">
-          <div class="bg-dark p-4">
+          <div class="p-4">
             <ul class="col list-unstyled">
-              <li><a href="#why-uber-section" id="why-uber-link-mob">Почему UBER</a></li><br>
-              <li><a href="#req-drivers-section" id="req-drivers-link-mob">Требования к водителям</a></li><br>
-              <li><a href="#req-auto-section" id="req-auto-link-mob">Tребования к авто</a></li><br>
-              <li><a href="#our-commission-section" id="our-commission-link-mob">Наша комиссия</a></li><br>
-              <li><a href="#change-partner-section" id="change-partner-link-mob">Сменить партнера</a></li>  
+              <li><a href="#why-uber-section" id="why-uber-link-mob">Почему мы</a></li><br>
+              <li><a href="#req-drivers-section" id="req-drivers-link-mob">Наши работы</a></li><br>
+              <li><a href="#req-auto-section" id="req-auto-link-mob">Цены</a></li><br>
+              <li><a href="#our-commission-section" id="our-commission-link-mob">Обратный звонок</a></li> 
             </ul>
           </div>
         </div>
@@ -93,7 +92,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="col d-flex align-items-center justify-content-end contacts">            
-              <span class="phone-digits">+380 99 290 00 50</span>
+              <span class="phone-digits">+380 99 290 00 00</span>
           </div>
           <img class="whatsapp-icon" src="imgs/whatsapp.svg" width="14" height="14" alt="">
           <img class="viber-icon" src="imgs/viber.png" width="12" height="14" alt="">

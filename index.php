@@ -248,11 +248,11 @@
 	<div class="row">
 		<!-- Desktop form -->
 		<div class="col-7 d-none d-lg-block ml-auto mr-auto">
-			<?php require 'layouts/form-change-desk.php'; ?>
+			<?php // require 'layouts/form-change-desk.php'; ?>
 		</div>		
 		<!-- Mobile form -->
 		<div class="col d-lg-none ml-auto mr-auto">
-			<?php require 'layouts/form-change-mob.php'; ?>
+			<?php // require 'layouts/form-change-mob.php'; ?>
 		</div>
 	</div>
 </div>

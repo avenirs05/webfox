@@ -43,11 +43,11 @@ $subject = "Заявка с сайта smartfox (desktop)";
 
 
 $message = '<html><head><title></title></head><body>
-                    <strong>Тема: заявка с сайта uberline.in.ua (desktop)</strong><br><br><br>' .
-                    '<b>Имя:</b> ' . $_POST['name'] . '<br><br>' .
+                    <strong>Тема: заявка с сайта smartfox (desktop)</strong><br><br><br>' .
+                    '<b>Имя:</b> ' . $_POST['name'] . '<br><br>'      .
                     '<b>Телефон:</b> ' . $_POST['phone'] . '<br><br>' .  
-                    '<b>Email:</b> ' . $_POST['email'] . '<br><br>' .
-                    '<b>Сообщение:</b> ' . $_POST['question'] . '<br><br>' .
+                    '<b>Email:</b> ' . $_POST['email'] . '<br><br>'   .
+                    '<b>Сообщение:</b> ' . $_POST['question']         .
                     '</body></html>';
 
 mail($to, $subject, $message, $headers);
