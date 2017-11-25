@@ -65,6 +65,7 @@ $(function () {
     });
     // Кнопка "Обратный звонок"
     $('#btn-callback-desk').click(function() { 
+        $(this).css('margin-right', '30px');
         $('.headers-wrap').hide(); // когда появляется попап, заголовки исчезают
         $('#modal-callback-desk').modal('show'); 
     });
@@ -78,6 +79,7 @@ $(function () {
     // Фокус на поле "Телефон"
     // Кнопка "Получить консультацию"
     $('#modal-form-desk').on('shown.bs.modal', function() {
+      $('#btn-callback-desk').css('margin-right', '30px');
       $('#phone-field-desk').trigger('focus');
     });
     $('#modal-form-mob').on('shown.bs.modal', function() {
@@ -94,9 +96,11 @@ $(function () {
 
     // Когда закрываем модальное окно, заголовки появляются (в версии для десктопа)
     $('#modal-form-desk .close').click(function() { 
+        $('#btn-callback-desk').css('margin-right', '15px');
         $('.headers-wrap').show();
     });
     $('#modal-callback-desk .close').click(function() { 
+        $('#btn-callback-desk').css('margin-right', '15px');
         $('.headers-wrap').show();
     });
     $('#modal-callback-mob .close').click(function() { 
