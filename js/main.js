@@ -122,7 +122,8 @@ $(function () {
     $(window).scroll(function() {
       if ( $(window).scrollTop() !== 0) {
         $("#navbar-mob").css("backgroundColor", "#000");
-      } else $("#navbar-mob").css("backgroundColor", "transparent");      
+      } 
+      // else $("#navbar-mob").css("backgroundColor", "transparent");      
     }); 
     
 });
