@@ -42,7 +42,7 @@
               </div>
             </div>
             <ul class="col d-flex align-items-center list-unstyled list-inline">
-              <li class="list-inline-item"><a href="/#why-uber-section" id="why-uber-link">Почему мы</a></li>
+              <li class="list-inline-item"><a href="/#why-us-section" id="why-uber-link">Почему мы</a></li>
               <li class="list-inline-item"><a href="/#req-drivers-section" id="req-drivers-link">Наши работы</a></li>
               <li class="list-inline-item"><a href="/#req-auto-section" id="req-auto-link">Цены</a></li> 
               <li class="list-inline-item"><a href="/#change-partner-section" id="change-partner-link">Частые вопросы</a></li>       
@@ -90,7 +90,7 @@
         <div class="collapse" id="navbarToggleExternalContent">
           <div class="p-4">
             <ul class="col list-unstyled">
-              <li><a href="#why-uber-section" id="why-uber-link-mob">Почему мы</a></li><br>
+              <li><a href="#why-us-section" id="why-uber-link-mob">Почему мы</a></li><br>
               <li><a href="#req-drivers-section" id="req-drivers-link-mob">Наши работы</a></li><br>
               <li><a href="#req-auto-section" id="req-auto-link-mob">Цены</a></li><br>
               <li><a href="#our-commission-section" id="our-commission-link-mob">Частые вопросы</a></li> 

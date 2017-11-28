@@ -1,58 +1,37 @@
 ﻿<?php require_once 'layouts/header.php'; ?>
 
-<!-- Main-screen for mobile -->
-<div class="container-fluid d-lg-none main-screen-mob">
-	<div class="row">
-		<div class="col">
-			<!-- <a href="/"><img class="logo-mob" src="imgs/logo.png" height="40" alt=""></a> -->
-			<h1 class="text-center">Создаём веб-сайты "под ключ"</h1>
-			<p class="text-center" id="for-30-min-mob">за 30 минут</p>
-			<h2 class="text-center">Официальный партнер UBER в Украине</h2>
-			<h2 class="text-center">Честная комиссия – от 2%</h2>
-		</div>
-	</div>		    
-</div>
-
-<!-- Form for mobile -->
-<div id="form-mobile-section" class="container-fluid d-lg-none form-wrapper-mob">
-	<div class="row">
-		<div class="col">
-			<?php require 'layouts/form-main-mob.php'; ?>
-		</div>
-	</div>		    
-</div>
-
-<!-- Почему Uber -->
-<div id="why-uber-section" class="container-fluid anchor-page">
+<!-- Почему мы -->
+<div id="why-us-section" class="container-fluid anchor-page">
 	<div class="row">
 		<div class="col col-lg-9 ml-auto mr-auto">
-			<h2 class="text-center">Почему все больше водителей приходят работать в UBER?</h2>
+			<h2 class="text-center">Что нас отличает от других веб-студий?</h2>
 		</div>
 	</div>
-	<div class="row first-row-discount">
+	<div class="row">
 		<div class="col-12 col-lg-3 ml-auto mr-auto text-center">
 			<figure class="figure">
 			  <img height="42" src="imgs/bullit-green.png" class="figure-img rounded" alt="">
-			  <figcaption class="figure-caption"><b>Независимость</b><br>Вы сами определяете, когда, сколько и где вы будете выполнять заказы.
+			  <figcaption class="figure-caption"><b>Думаем о продажах</b><br>Как заставить посетителя сайта вам перезвонить, написать, оставить заявку? Задача сайта — в итоге превратить интернет-посетителя в реального покупателя. При разработке сайта исходим из этого. 
 			  </figcaption>
 			</figure>
 		</div>
 		<div class="col-12 col-lg-3 ml-auto mr-auto text-center">
 			<figure class="figure">
 			  <img height="42" src="imgs/bullit-green.png" class="figure-img rounded" alt="">
-			  <figcaption class="figure-caption"><b>Поток клиентов</b><br>У вас всегда есть заказы. Минимальное время простоя. Минимальный холостой пробег.
+			  <figcaption class="figure-caption"><b>Говорим только правду</b><br>Сайт — только первый этап при построении системы продаж. Клиенты сами по себе не появятся, потребуются расходы на их привлечение. Мы также оказываем услуги в сфере рекламного продвижения.
 			  </figcaption>
 			</figure>
 		</div>
 		<div class="col-12 col-lg-3 ml-auto mr-auto text-center">
-			<figure class="figure">
+			<figure class="figure last-figure">
 			  <img height="42" src="imgs/bullit-green.png" class="figure-img rounded" alt="">
-			  <figcaption class="figure-caption"><b>Справедливость</b><br>Повышающие коэффициенты и бонусы за работу в загруженных районах.</li>
+			  <figcaption class="figure-caption"><b>Максимальная прозрачность</b><br>При взаимодействии с заказчиком сводим к минумуму использование технических терминов. Говорим на понятном вам языке. Пытаемся объяснить сложные вещи простыми словами.   
 			  </figcaption>
 			</figure>
 		</div>
 	</div>	
-	<div class="row first-row-discount">
+</div>
+<!-- 	<div class="row first-row-discount">
 		<div class="col-12 col-lg-3 ml-auto mr-auto text-center">
 			<figure class="figure">
 			  <img height="42" src="imgs/bullit-green.png" class="figure-img rounded" alt="">
@@ -74,8 +53,8 @@
 			  </figcaption>
 			</figure>
 		</div>
-	</div>	
-	<div class="row">
+	</div> -->	
+<!-- 	<div class="row">
 		<div class="col-12 col-lg-3 ml-auto mr-auto text-center">
 			<figure class="figure last-figure">
 			  <img height="42" src="imgs/bullit-green.png" class="figure-img rounded" alt="">
@@ -83,8 +62,8 @@
 			  </figcaption>
 			</figure>
 		</div>
-	</div>			
-</div>    
+	</div> -->			
+  
 
 <!-- Скидки -->
 <div id="discount-section" class="container-fluid anchor-page">

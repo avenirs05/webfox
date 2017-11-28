@@ -215,11 +215,16 @@ button[type="submit"]:hover {
 	padding-bottom: 25px;
 }
 
-#why-uber-section {
-	background-color: #FFFFCC;	
+#why-us-section {
+/*	background-color: #FFFFCC; */
+	background-image: url('imgs/bg-light.png');
 }
 
-#why-uber-section ul,
+#why-us-section b {
+	font-size: 18px;	
+}
+
+#why-us-section ul,
 #req-drivers-section ul {
 	margin-left: 25px;
 	font-size: 22px;
@@ -239,13 +244,13 @@ button[type="submit"]:hover {
 
 #discount-section h2,
 #req-auto-section h2,
-#why-uber-section h2 {
+#why-us-section h2 {
 	margin-bottom: 30px;
 }
 
 #discount-section figcaption,
 #req-auto-section figcaption,
-#why-uber-section figcaption {
+#why-us-section figcaption {
 	color: #000;
 	font-size: 16px;
 }
@@ -256,7 +261,7 @@ button[type="submit"]:hover {
 
 #discount-section .last-figure,
 #req-auto-section .last-figure,
-#why-uber-section .last-figure {
+#why-us-section .last-figure {
 	margin-bottom: 0;
 }
 
@@ -408,12 +413,12 @@ button[type="submit"]:hover {
 	}
 	#discount-section .figure,
 	#req-auto-section .figure,
-	#why-uber-section .figure {
+	#why-us-section .figure {
 		margin-bottom: 30px;		
 	}
 	#discount-section .last-figure,
 	#req-auto-section .last-figure,
-	#why-uber-section .last-figure {
+	#why-us-section .last-figure {
 		margin-bottom: 0;
 	}
 	#req-drivers-section .for-connection {
