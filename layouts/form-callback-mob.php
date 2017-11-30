@@ -5,7 +5,7 @@
   </div>
   <div class="form-group">
     <label>Телефон<span class="red">*</span></label>
-    <input id="phone-callback-field-mob" type="text" class="phone-field-desk form-control" placeholder="Введите номер телефона" name="phone" required>
+    <input id="phone-callback-field-mob" type="text" class="phone-field-mob form-control" placeholder="Введите номер телефона" name="phone" required>
   </div>
   <button class="btn-send" type="submit" class="btn btn-primary">Перезвоните мне</button>
 </form>

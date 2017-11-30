@@ -96,11 +96,11 @@ $(function () {
 
     // Когда закрываем модальное окно, заголовки появляются (в версии для десктопа)
     $('#modal-form-desk .close').click(function() { 
-        $('#btn-callback-desk').css('margin-right', '15px');
+        $('#btn-callback-desk').css('margin-right', '14px');
         $('.headers-wrap').show();
     });
     $('#modal-callback-desk .close').click(function() { 
-        $('#btn-callback-desk').css('margin-right', '15px');
+        $('#btn-callback-desk').css('margin-right', '14px');
         $('.headers-wrap').show();
     });
     $('#modal-callback-mob .close').click(function() { 

@@ -255,6 +255,10 @@ button[type="submit"]:hover {
 	font-size: 16px;
 }
 
+/*#why-us-section .figure {
+	margin-bottom: 0;
+}*/
+
 .first-row-discount {
 	margin-bottom: 30px;
 }
@@ -367,6 +371,12 @@ button[type="submit"]:hover {
 	color: #fff;
 	width: 100%;	
 	border-radius: 5px;
+}
+
+#modal-callback-desk {
+	max-width: 350px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .header .list-inline-item:not(:last-child) {
