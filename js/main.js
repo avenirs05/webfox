@@ -94,6 +94,7 @@ $(function () {
     });
     // Фокус на поле "Телефон"
 
+
     // Когда закрываем модальное окно, заголовки появляются (в версии для десктопа)
     $('#modal-form-desk .close').click(function() { 
         $('#btn-callback-desk').css('margin-right', '14px');
@@ -122,8 +123,7 @@ $(function () {
     $(window).scroll(function() {
       if ( $(window).scrollTop() !== 0) {
         $("#navbar-mob").css("backgroundColor", "#000");
-      } 
-      // else $("#navbar-mob").css("backgroundColor", "transparent");      
+      }    
     }); 
     
 });

@@ -225,16 +225,16 @@ button[type="submit"]:hover {
 }
 
 #why-us-section ul,
-#req-drivers-section ul {
+#price-section ul {
 	margin-left: 25px;
 	font-size: 22px;
 }
 
-#req-drivers-section h2 {
+#price-section h2 {
 	margin-bottom: 20px;
 }
 
-#req-drivers-section {
+#price-section {
 	background-color: #f3f3f3;	
 }
 
@@ -242,13 +242,13 @@ button[type="submit"]:hover {
 	background-color: #FFFFCC;
 }
 
-#discount-section h2,
+#price-section h2,
 #req-auto-section h2,
 #why-us-section h2 {
 	margin-bottom: 30px;
 }
 
-#discount-section figcaption,
+#price-section figcaption,
 #req-auto-section figcaption,
 #why-us-section figcaption {
 	color: #000;
@@ -263,13 +263,13 @@ button[type="submit"]:hover {
 	margin-bottom: 30px;
 }
 
-#discount-section .last-figure,
+#price-section .last-figure,
 #req-auto-section .last-figure,
 #why-us-section .last-figure {
 	margin-bottom: 0;
 }
 
-#req-drivers-section .fit {
+#price-section .fit {
 	font-size: 22px;
 	margin-top: 15px;
 } 
@@ -309,7 +309,7 @@ button[type="submit"]:hover {
 	color: #E7382B;
 }
 
-#change-partner-section {
+#faq-section {
 	background-color: #F3F3F3;
 }
 
@@ -321,8 +321,8 @@ button[type="submit"]:hover {
 	font-size: 12px;
 }
 
-#change-partner-section form,
-#change-partner-section a {
+#faq-section form,
+#faq-section a {
 	color: #000;
 	border: none;
 	margin-top: 0;
@@ -421,20 +421,20 @@ button[type="submit"]:hover {
 	.first-row-discount {
 		margin-bottom: 0;
 	}
-	#discount-section .figure,
+	#price-section .figure,
 	#req-auto-section .figure,
 	#why-us-section .figure {
 		margin-bottom: 30px;		
 	}
-	#discount-section .last-figure,
+	#price-section .last-figure,
 	#req-auto-section .last-figure,
 	#why-us-section .last-figure {
 		margin-bottom: 0;
 	}
-	#req-drivers-section .for-connection {
+	#price-section .for-connection {
 		margin-top: 30px;
 	}
-	#req-drivers-section .list-unstyled {
+	#price-section .list-unstyled {
 		margin-left: 0;
 	}
 	#req-auto-section .list-auto-text-wrap {
@@ -458,7 +458,7 @@ button[type="submit"]:hover {
 		font-size: 24px;
 		font-weight: 600;
 	}
-	#change-partner-section h4 {
+	#faq-section h4 {
 		font-size: 18px;
 	}
 	#particles-js .headers {

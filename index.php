@@ -32,11 +32,11 @@
 	</div>	
 </div>
 
-<!-- Скидки -->
-<div id="discount-section" class="container-fluid anchor-page">
+<!-- Наши работы -->
+<div id="portfolio-section" class="container-fluid anchor-page">
 	<div class="row">
 		<div class="col">
-			<h2 class="text-center">Скидки для всех водителей UBER!</h2>
+			<h2 class="text-center">Наши работы</h2>
 		</div>
 	</div>	
 	<div class="row first-row-discount">
@@ -50,7 +50,7 @@
 		<div class="col-12 col-lg-3 ml-auto mr-auto text-center">
 			<figure class="figure">
 			  <img height="42" src="imgs/discount-elit.png" class="figure-img rounded" alt="">
-			  <figcaption class="figure-caption"><b>Автозапчасти</b><br>Скидка 27% на покупку автозапчастей в интернет- магазине Elit.
+			  <figcaption class="figure-caption"><b>Автозапчасти</b><br>Скидка 27% на покупку автозапчастей в интернет-магазине Elit.
 			  </figcaption>
 			</figure>
 		</div>
@@ -87,11 +87,11 @@
 	</div>    
 </div>
 
-<!-- Требования к водителям -->
-<div id="req-drivers-section" class="container-fluid anchor-page">
+<!-- Наши тарифы -->
+<div id="price-section" class="container-fluid anchor-page">
 	<div class="row">
 		<div class="col-12 col-lg-5 offset-lg-1">
-			<h2 class="text-center">Требования к водителям</h2>
+			<h2 class="text-center">Наши тарифы</h2>
 			<ul>
 				<li>Водительское удостоверение категории «B»</li>
 				<li>Стаж вождения от 1 года</li>
@@ -125,11 +125,11 @@
 	</div>
 </div>
 
-<!-- Требования к автомобилям -->
-<div id="req-auto-section" class="container-fluid anchor-page">
+<!-- Вопрос - Ответ -->
+<div id="faq-section" class="container-fluid anchor-page">
 	<div class="row">
 		<div class="col">
-			<h2 class="text-center">Требования к автомобилям</h2>
+			<h2 class="text-center">Вопросы и ответы</h2>
 		</div>
 	</div>	
 	<div class="row">
@@ -161,46 +161,6 @@
 			<p>Все автомобили должны иметь, по меньшей мере, 4 двери, чистый салон, хорошее внешнее состояние и исправные ремни безопасности.</p>
 		</div>
 	</div>  
-</div>
-
-<!-- Наши комиссии -->
-<div id="our-commission-section" class="container-fluid anchor-page">
-	<div class="row">
-		<div class="col-10 ml-auto mr-auto">
-			<h2 class="text-center">Наши комиссии и выплаты</h2>
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-12 col-lg-10 wrapper ml-auto mr-auto">
-			<p>Стандартный размер партнерской комиссии - <b>6% !</b></p>
-			<p>Это честные 6% без дополнительных «налогов» и прочих удержаний.</p>
-			<p class="action"><b>АКЦИЯ!</b> Для всех подключившихся к нам в 2017 году комиссия в первый месяц работы составит всего <b>2% !</b></p> 
-			<p>Выплаты осуществляются <b>1 раз в неделю.</b></p>
-			<p>По вашему <b>желанию</b> мы будем платить вам <b>ежедневно</b>. При этом размер комиссии увеличится всего на 2%.</p>
-			<p>Если вы совершаете <b>более 400</b> поездок в месяц, размер комиссии будет определён <b>индивидуально</b>.</p>
-			<p class="action"><b>АКЦИЯ! «Приведи друга!» — </b> за каждого водителя, подключившегося к нам по вашей рекомендации, платим по 500 грн по достижении им отметки в 200 поездок.</p> 
-		</div>
-	</div>
-</div>
-
-<!-- Сменить партнера -->
-<div id="change-partner-section" class="container-fluid anchor-page">
-	<div class="row">
-		<div class="col-12 col-lg-7 ml-auto mr-auto">
-			<h2 class="text-center">Хотите перейти от другого партнера к нам?</h2>
-			<h4 class="text-center"><i>Заполните короткую форму ниже:</i></h4>
-		</div>
-	</div>
-	<div class="row">
-		<!-- Desktop form -->
-		<div class="col-7 d-none d-lg-block ml-auto mr-auto">
-			<?php // require 'layouts/form-change-desk.php'; ?>
-		</div>		
-		<!-- Mobile form -->
-		<div class="col d-lg-none ml-auto mr-auto">
-			<?php // require 'layouts/form-change-mob.php'; ?>
-		</div>
-	</div>
 </div>
 
 <?php require_once 'layouts/footer.php'; ?>
