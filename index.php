@@ -90,20 +90,69 @@
 <!-- Наши тарифы -->
 <div id="price-section" class="container-fluid anchor-page">
 	<div class="row">
-		<div class="col-12 col-lg-5 offset-lg-1">
+		<div class="col col-lg-9 ml-auto mr-auto">
 			<h2 class="text-center">Наши тарифы</h2>
-			<ul>
-				<li>Водительское удостоверение категории «B»</li>
-				<li>Стаж вождения от 1 года</li>
-				<li>Возраст от 19 лет</li>
-				<li>Гражданство Украины или вид на жительство</li>
-				<li>Личный или арендованный <a href="https://docs.google.com/spreadsheets/d/1XDzUIVBZxCrNIKkjFOc0eiKHNRLmPDaVJKzKcb1lu0E/edit#gid=407632270" target="_blank">автомобиль</a></li>
-				<li>Наличие смартфона с 3G-интернетом</li>
-				<li>Банковская карта (любая)</li>
-				<li>Желание зарабатывать (ОБЯЗАТЕЛЬНО!)</li>
-			</ul>
 		</div>
-	</div>		  
+	</div>
+	<div class="row">
+		<div class="col-12 col-lg-4 ml-auto mr-auto">
+			<div class="tariff econom">
+				<h4 class="text-center">"Эконом"</h4>
+				<h5 class="text-center">$100</h5>
+				<div class="tariff-body">
+				<ul>
+					<li>1 страница (лендинг)</li>
+					<li>дизайн на основе шаблона</li>
+					<li>мобильная версия</li>
+					<li>триггеры продаж (обратный звонок, заявки на email)</li>
+					<li>счетчики посещений (Google Analytics, Яндекс.Метрика)</li>
+					<li>доменное имя на 1 год (com.ua, kiev.ua, net.ua, org.ua, in.ua)</li>
+					<li>хостинг на 1 месяц</li>
+				</ul>
+				</div>
+			</div>			
+		</div>
+		<div class="col-12 col-lg-4 ml-auto mr-auto">
+			<div class="tariff standard">
+				<h4 class="text-center">"Стандарт"</h4>
+				<h5 class="text-center">от $300</h5>
+				<div class="tariff-body">
+				<ul>
+					<li>до 10 страниц (лендинг или многостраничный сайт)</li>
+					<li>индивидуальный дизайн</li>
+					<li>мобильная версия</li>
+					<li>триггеры продаж (обратный звонок, заявки на email)</li>
+					<li>счетчики посещений (Google Analytics, Яндекс.Метрика)</li>
+					<li>доменное имя на 1 год (com.ua, kiev.ua, net.ua, org.ua, in.ua)</li>
+					<li>хостинг на 3 месяца</li>
+					<li>онлайн консультант (JivoSite)</li>
+					<li>система управления контентом (CMS)</li>
+				</ul>
+				</div>
+			</div>			
+		</div>
+		<div class="col-12 col-lg-4 ml-auto mr-auto">
+			<div class="tariff premium">
+				<h4 class="text-center">"Премиум"</h4>
+				<h5 class="text-center">от $1000</h5>
+				<div class="tariff-body">
+				<ul>
+					<li>неограниченное количество страниц</li>
+					<li>индивидуальный дизайн</li>
+					<li>мобильная версия</li>
+					<li>триггеры продаж (обратный звонок, заявки на email, иные)</li>
+					<li>счетчики посещений (Google Analytics, Яндекс.Метрика)</li>
+					<li>доменное имя на 1 год (com.ua, kiev.ua, net.ua, org.ua, in.ua)</li>
+					<li>хостинг на 3 месяца</li>
+					<li>онлайн консультант (JivoSite)</li>
+					<li>система управления контентом (CMS), в том числе самописная</li>
+					<li>WOW-эффекты</li>
+					<li>сложный функционал (самописные фильтры, онлайн-калькуляторы и т.п.)</li>
+				</ul>
+				</div>
+			</div>			
+		</div>
+	</div>  
 </div>
 
 <!-- Вопрос - Ответ -->
