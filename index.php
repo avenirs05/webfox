@@ -39,7 +39,7 @@
 			<h2 class="text-center">Наши работы</h2>
 		</div>
 	</div>	
-	<div class="row first-row-discount">
+	<div class="row first-row-content">
 		<div class="col-12 col-lg-3 ml-auto mr-auto text-center">
 			<figure class="figure">
 			  <img height="42" src="imgs/discount-window.png" class="figure-img rounded" alt="">
@@ -103,26 +103,7 @@
 				<li>Желание зарабатывать (ОБЯЗАТЕЛЬНО!)</li>
 			</ul>
 		</div>
-		<div class="col-12 col-lg-5">
-			<h2 class="text-center for-connection">Для подключения необходимо всего 3 документа:</h2>
-			<ul class="list-unstyled">
-				<li>1. Водительское удостоверение категории «B»</li>
-				<li>2. Свидетельство о регистрации транспортного средства</li>
-				<li>3. Полис ОСАГО</li>
-			</ul>
-		</div>
-	</div>		 
-	<div class="row text-center">
-		<div class="col">
-			<p class="text-center fit"><b>Подходите по условиям?</b></p>
-		</div>	
-	</div>   
-	<div class="row text-center">
-		<div class="col col-lg-3 ml-auto mr-auto">
-			<button id="btn-fit" type="submit" class="btn btn-primary d-none d-lg-block">Оставить заявку</button>
-			<button id="btn-fit-mob" type="submit" class="btn btn-primary d-lg-none">Оставить заявку</button>
-		</div>	
-	</div>
+	</div>		  
 </div>
 
 <!-- Вопрос - Ответ -->
