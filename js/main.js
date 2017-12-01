@@ -63,6 +63,34 @@ $(function () {
     $('#btn-get-consult-mob').click(function() {         
         $('#modal-form-mob').modal('show'); 
     });
+    //Кнопка "Узнать больше" - "Эконом"
+    $('#btn-econom-desk').click(function() { 
+        $('#tariff-field-desk').val('Эконом');
+        $('#modal-form-desk').modal('show'); 
+    });
+    $('#btn-econom-mob').click(function() { 
+        $('#tariff-field-mob').val('Эконом');
+        $('#modal-form-mob').modal('show'); 
+    });
+    //Кнопка "Узнать больше" - "Стандарт"
+    $('#btn-standard-desk').click(function() { 
+        $('#tariff-field-desk').val('Стандарт');
+        $('#modal-form-desk').modal('show'); 
+    });
+    $('#btn-standard-mob').click(function() { 
+        $('#tariff-field-mob').val('Стандарт');
+        $('#modal-form-mob').modal('show'); 
+    });
+    //Кнопка "Узнать больше" - "Премиум"
+    $('#btn-premium-desk').click(function() { 
+        $('#tariff-field-desk').val('Премиум');
+        $('#modal-form-desk').modal('show'); 
+    });
+    $('#btn-premium-mob').click(function() { 
+        $('#tariff-field-mob').val('Премиум');
+        $('#modal-form-mob').modal('show'); 
+    });
+
     // Кнопка "Обратный звонок"
     $('#btn-callback-desk').click(function() { 
         $(this).css('margin-right', '30px');

@@ -1,7 +1,7 @@
 <div class="container-fluid header">
 	<nav class="row navbar navbar-dark bg-dark footer">
 		<div class="col">
-			<span><b>Тел.:</b> +380 99 291 89 60</span> 
+			<span><b>Тел.:</b> +380 99 290 00 00</span> 
 		</div>
 		<div class="w-100"></div>
 		<div class="col">
@@ -9,10 +9,10 @@
 		</div>
 		<div class="w-100"></div>
 		<div class="col text-center d-none d-lg-block">
-			<span class="copyright">&copy; uberline.in.ua, 2017</span>
+			<span class="copyright">&copy; smartfox.su, 2017</span>
 		</div>
 		<div class="col text-left d-lg-none">
-			<span class="copyright">&copy; uberline.in.ua, 2017</span>
+			<span class="copyright">&copy; smartfox.su, 2017</span>
 		</div>
 	</nav>
 </div>

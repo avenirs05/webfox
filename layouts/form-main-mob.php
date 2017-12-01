@@ -15,5 +15,6 @@
     <label>Ваш вопрос</label>
     <textarea class="form-control" rows="3" placeholder="Введите ваш вопрос" name="question"></textarea>
   </div>
+  <input id="tariff-field-mob" type="hidden" name="tariff"> 
   <button class="btn-send" type="submit" class="btn btn-primary">Отправить</button>
 </form>

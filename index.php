@@ -100,44 +100,57 @@
 				<h4 class="text-center">"Эконом"</h4>
 				<h5 class="text-center">$100</h5>
 				<div class="tariff-body">
-				<ul>
-					<li>дизайн: по шаблону, без правок</li>
-					<li>1 страница (лендинг)</li>
-					<li>мобильная версия</li>
-				</ul>
+					<ul>
+						<li>дизайн: по шаблону, без правок</li>
+						<li>1 страница (лендинг)</li>
+						<li>мобильная версия</li>
+					</ul>
 				</div>
+			  <div class="text-center ml-auto mr-auto">
+			    <button id="btn-econom-desk" type="submit" class="btn btn-primary ml-auto mr-auto d-none d-lg-block">Узнать больше</button>
+			    <button id="btn-econom-mob" type="submit" class="btn btn-primary ml-auto mr-auto d-lg-none">Узнать больше</button>
+			  </div>  
 			</div>			
 		</div>
+
 		<div class="col-12 col-lg-4 ml-auto mr-auto">
 			<div class="tariff standard">
 				<h4 class="text-center">"Стандарт"</h4>
-				<h5 class="text-center">от $300</h5>
+				<h5 class="text-center"><span class="from-word">от</span> $300</h5>
 				<div class="tariff-body">
-				<ul>
-					<li>дизайн: по шаблону, с возможностью правок</li>
-					<li>до 10 страниц</li>
-					<li>мобильная версия</li>
-					<li>система управления контентом (CMS)</li>
-					<li>доменное имя на 1 год (com.ua, in.ua)</li>
-				</ul>
+					<ul>
+						<li>дизайн: по шаблону, с возможностью правок</li>
+						<li>до 10 страниц</li>
+						<li>мобильная версия</li>
+						<li>система управления контентом (CMS)</li>
+						<li>доменное имя на 1 год (com.ua, in.ua)</li>
+					</ul>
 				</div>
+				<div class="text-center ml-auto mr-auto">
+				  <button id="btn-standard-desk" type="submit" class="btn btn-primary ml-auto mr-auto d-none d-lg-block">Узнать больше</button>
+				  <button id="btn-standard-mob" type="submit" class="btn btn-primary ml-auto mr-auto d-lg-none">Узнать больше</button>
+				</div> 
 			</div>			
 		</div>
 		<div class="col-12 col-lg-4 ml-auto mr-auto">
 			<div class="tariff premium">
 				<h4 class="text-center">"Премиум"</h4>
-				<h5 class="text-center">от $1000</h5>
+				<h5 class="text-center"><span class="from">от</span> $1000</h5>
 				<div class="tariff-body">
-				<ul>
-					<li>уникальный дизайн</li>
-					<li>неограниченное количество страниц</li>
-					<li>мобильная версия</li>
-					<li>система управления контентом (CMS)</li>
-					<li>WOW-эффекты</li>
-					<li>сложный функционал</li>
-					<li>доменное имя на 1 год (com.ua, in.ua)</li>
-					<li>хостинг на 3 месяца</li>
-				</ul>
+					<ul>
+						<li>уникальный дизайн</li>
+						<li>неограниченное количество страниц</li>
+						<li>мобильная версия</li>
+						<li>система управления контентом (CMS)</li>
+						<li>WOW-эффекты</li>
+						<li>сложный функционал</li>
+						<li>доменное имя на 1 год (com.ua, in.ua)</li>
+						<li>хостинг на 3 месяца</li>
+					</ul>
+				</div>
+				<div class="text-center ml-auto mr-auto">
+				  <button id="btn-premium-desk" type="submit" class="btn btn-primary ml-auto mr-auto d-none d-lg-block">Узнать больше</button>
+				  <button id="btn-premium-mob" type="submit" class="btn btn-primary ml-auto mr-auto d-lg-none">Узнать больше</button>
 				</div>
 			</div>			
 		</div>

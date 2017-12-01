@@ -47,8 +47,7 @@
               <li class="list-inline-item"><a href="/#price-section">Цены</a></li> 
               <li class="list-inline-item"><a href="/#faq-section">Частые вопросы</a></li>       
             </ul>
-            <div class="col-auto d-flex align-items-center justify-content-end contacts">
-              <!-- <button id="btn-callback-desk">Обратный звонок</button> -->           
+            <div class="col-auto d-flex align-items-center justify-content-end contacts">        
               <img class="phone-icon" src="imgs/phone.svg" width="17" height="17" alt="">
               <div class="phone-digits">+380 99 290 00 50</div>
               <img class="whatsapp-icon" src="imgs/whatsapp.svg" width="18" height="18" alt="">

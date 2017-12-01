@@ -147,6 +147,23 @@ button[type="submit"]:hover {
 	background-color: #E7382B;
 }
 
+#price-section button {
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-bottom: 15px;
+	font-size: 18px;
+	min-height: 40px;
+	background-color: #339933;
+	border: none;
+	font-weight: bold;
+	padding-top: 2px;
+	margin-top: 20px;
+}
+
+#price-section button:hover {
+	background-color: #E7382B;
+}
+
 #modal-form-desk .btn-send,
 #modal-form-mob .btn-send,
 #modal-form-desk .btn-send,
@@ -208,6 +225,10 @@ button[type="submit"]:hover {
 	margin-bottom: 30px;
 }
 
+#price-section .from-word {
+	font-size: 14px;
+}
+
 #price-section figcaption,
 #why-us-section figcaption {
 	color: #000;
@@ -243,9 +264,6 @@ button[type="submit"]:hover {
 	margin-bottom: 20px;
 }
 
-
-
-
 #price-section h4 {
 	font-weight: bold;
 	font-size: 20px;
@@ -263,7 +281,6 @@ button[type="submit"]:hover {
 	margin-bottom: 0;
 	color: #fff;
 }
-
 
 #faq-section {
 	background-color: #F3F3F3;
