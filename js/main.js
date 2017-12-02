@@ -153,5 +153,5 @@ $(function () {
         $("#navbar-mob").css("backgroundColor", "#000");
       }    
     }); 
-    
+
 });

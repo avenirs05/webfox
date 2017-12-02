@@ -39,52 +39,94 @@
 			<h2 class="text-center">Наши работы</h2>
 		</div>
 	</div>	
-	<div class="row first-row-content">
-		<div class="col-12 col-lg-3 ml-auto mr-auto text-center">
+	<div class="row portfolio-row">
+		<div class="col-12 col-lg-4 ml-auto mr-auto text-center">
 			<figure class="figure">
-			  <img height="42" src="imgs/discount-window.png" class="figure-img rounded" alt="">
-			  <figcaption class="figure-caption"><b>Топливо и газ</b><br>Скидка 3-4 грн/л на бензин или ДТ и 1-2 грн/л на газ в сети АЗК «ОККО», а также бесплатный кофе.
+			  <a href="#" target="_blank"><img src="imgs/portfolio-uber.jpg" class="img-fluid rounded" alt=""></a>
+			  <figcaption class="figure-caption">
+			  	<b>Партнер UBER-такси </b>
+			  	<a href="#" target="_blank">(на сайт)</a>			  	
 			  </figcaption>
 			</figure>
 		</div>
-		<div class="col-12 col-lg-3 ml-auto mr-auto text-center">
+		<div class="col-12 col-lg-4 ml-auto mr-auto text-center">
 			<figure class="figure">
-			  <img height="42" src="imgs/discount-elit.png" class="figure-img rounded" alt="">
-			  <figcaption class="figure-caption"><b>Автозапчасти</b><br>Скидка 27% на покупку автозапчастей в интернет-магазине Elit.
+			  <a href="#" target="_blank"><img src="imgs/portfolio-uber.jpg" class="img-fluid rounded" alt=""></a>
+			  <figcaption class="figure-caption">
+			  	<b>Партнер UBER-такси </b>
+			  	<a href="#" target="_blank">(на сайт)</a>			  	
 			  </figcaption>
 			</figure>
 		</div>
-		<div class="col-12 col-lg-3 ml-auto mr-auto text-center">
+		<div class="col-12 col-lg-4 ml-auto mr-auto text-center">
 			<figure class="figure">
-			  <img height="42" src="imgs/discount-autoservices.png" class="figure-img rounded" alt="">
-			  <figcaption class="figure-caption"><b>Автосервисы</b><br>Скидка от 10 до 50% на услуги СТО, шиномонтажа и автомойки, которые можно заказать на сайте Carbook.
+			  <a href="#" target="_blank"><img src="imgs/portfolio-uber.jpg" class="img-fluid rounded" alt=""></a>
+			  <figcaption class="figure-caption">
+			  	<b>Партнер UBER-такси </b>
+			  	<a href="#" target="_blank">(на сайт)</a>			  	
 			  </figcaption>
 			</figure>
 		</div>
-	</div>	
+	</div>
+	<div class="row portfolio-row">
+		<div class="col-12 col-lg-4 ml-auto mr-auto text-center">
+			<figure class="figure">
+			  <a href="#" target="_blank"><img src="imgs/portfolio-uber.jpg" class="img-fluid rounded" alt=""></a>
+			  <figcaption class="figure-caption">
+			  	<b>Партнер UBER-такси </b>
+			  	<a href="#" target="_blank">(на сайт)</a>			  	
+			  </figcaption>
+			</figure>
+		</div>
+		<div class="col-12 col-lg-4 ml-auto mr-auto text-center">
+			<figure class="figure">
+			  <a href="#" target="_blank"><img src="imgs/portfolio-uber.jpg" class="img-fluid rounded" alt=""></a>
+			  <figcaption class="figure-caption">
+			  	<b>Партнер UBER-такси </b>
+			  	<a href="#" target="_blank">(на сайт)</a>			  	
+			  </figcaption>
+			</figure>
+		</div>
+		<div class="col-12 col-lg-4 ml-auto mr-auto text-center">
+			<figure class="figure">
+			  <a href="#" target="_blank"><img src="imgs/portfolio-uber.jpg" class="img-fluid rounded" alt=""></a>
+			  <figcaption class="figure-caption">
+			  	<b>Партнер UBER-такси </b>
+			  	<a href="#" target="_blank">(на сайт)</a>			  	
+			  </figcaption>
+			</figure>
+		</div>
+	</div>
 	<div class="row">
-		<div class="col-12 col-lg-3 ml-auto mr-auto text-center">
+		<div class="col-12 col-lg-4 ml-auto mr-auto text-center">
 			<figure class="figure">
-			  <img height="42" src="imgs/discount-tires.png" class="figure-img rounded" alt="">
-			  <figcaption class="figure-caption"><b>Шины</b><br>Скидка от 5 до 15% на шины, диски и аккумуляторы в определенных магазинах «ШипШина».
+			  <a href="#" target="_blank"><img src="imgs/portfolio-uber.jpg" class="img-fluid rounded" alt=""></a>
+			  <figcaption class="figure-caption">
+			  	<b>Партнер UBER-такси </b>
+			  	<a href="#" target="_blank">(на сайт)</a>			  	
 			  </figcaption>
 			</figure>
 		</div>
-		<div class="col-12 col-lg-3 ml-auto mr-auto text-center">
+		<div class="col-12 col-lg-4 ml-auto mr-auto text-center">
 			<figure class="figure">
-			  <img height="42" src="imgs/discount-insurance.png" class="figure-img rounded" alt="">
-			  <figcaption class="figure-caption"><b>Страхование</b><br>Скидки до 20% на определенные услуги страхования в СК «Универсальная».
+			  <a href="#" target="_blank"><img src="imgs/portfolio-uber.jpg" class="img-fluid rounded" alt=""></a>
+			  <figcaption class="figure-caption">
+			  	<b>Партнер UBER-такси </b>
+			  	<a href="#" target="_blank">(на сайт)</a>			  	
 			  </figcaption>
 			</figure>
 		</div>
-		<div class="col-12 col-lg-3 ml-auto mr-auto text-center">
+		<div class="col-12 col-lg-4 ml-auto mr-auto text-center">
 			<figure class="figure last-figure">
-			  <img height="42" src="imgs/discount-expences.png" class="figure-img rounded" alt="">
-			  <figcaption class="figure-caption"><b>Ежедневные расходы</b><br>Дополнительные баллы за покупку товаров в супермаркетах «Фуршет» и мобильных аксессуаров в сети «АЛЛО».
+			  <a href="#" target="_blank"><img src="imgs/portfolio-uber.jpg" class="img-fluid rounded" alt=""></a>
+			  <figcaption class="figure-caption">
+			  	<b>Партнер UBER-такси </b>
+			  	<a href="#" target="_blank">(на сайт)</a>			  	
 			  </figcaption>
 			</figure>
 		</div>
-	</div>    
+	</div>
+   
 </div>
 
 <!-- Наши тарифы -->
@@ -101,9 +143,10 @@
 				<h5 class="text-center">$100</h5>
 				<div class="tariff-body">
 					<ul>
-						<li>дизайн: по шаблону, без правок</li>
 						<li>1 страница (лендинг)</li>
 						<li>мобильная версия</li>
+						<li>сбор заявкок на email</li>
+						<li>счетчик посещений</li>
 					</ul>
 				</div>
 			  <div class="text-center ml-auto mr-auto">
@@ -119,10 +162,12 @@
 				<h5 class="text-center"><span class="from-word">от</span> $300</h5>
 				<div class="tariff-body">
 					<ul>
-						<li>дизайн: по шаблону, с возможностью правок</li>
 						<li>до 10 страниц</li>
 						<li>мобильная версия</li>
 						<li>система управления контентом (CMS)</li>
+						<li>сбор заявкок на email</li>
+						<li>счетчик посещений</li>
+						<li>онлайн-консультант</li>
 						<li>доменное имя на 1 год (com.ua, in.ua)</li>
 					</ul>
 				</div>
@@ -135,15 +180,18 @@
 		<div class="col-12 col-lg-4 ml-auto mr-auto">
 			<div class="tariff premium">
 				<h4 class="text-center">"Премиум"</h4>
-				<h5 class="text-center"><span class="from">от</span> $1000</h5>
+				<h5 class="text-center"><span class="from-word">от</span> $1000</h5>
 				<div class="tariff-body">
-					<ul>
-						<li>уникальный дизайн</li>
-						<li>неограниченное количество страниц</li>
+					<ul>						
+						<li>неограниченное количество страниц</li>						
 						<li>мобильная версия</li>
 						<li>система управления контентом (CMS)</li>
+						<li>сбор заявкок на email</li>
+						<li>счетчик посещений</li>
+						<li>онлайн-консультант</li>												
 						<li>WOW-эффекты</li>
-						<li>сложный функционал</li>
+						<li>сложный функционал</li>						
+						<li>уникальный дизайн</li>
 						<li>доменное имя на 1 год (com.ua, in.ua)</li>
 						<li>хостинг на 3 месяца</li>
 					</ul>
@@ -164,35 +212,50 @@
 			<h2 class="text-center">Вопросы и ответы</h2>
 		</div>
 	</div>	
-	<div class="row">
-		<div class="col-12 col-lg-3 ml-auto mr-auto text-center">
-			<figure class="figure">
-			  <img height="200" src="imgs/uber-x.png" class="figure-img rounded" alt="">
-			  <figcaption class="figure-caption"><b>UberX (Доступный класс)</b><br>Автомобили в исправном техническом состоянии не старше 1995 года. Например: Renault Logan, Daewoo Lanos, Chevrolet Aveo, Skoda Fabia, VW Polo, Hyundai Accent, Opel Astra или аналогичные модели, в т.ч. ZAZ, Lada, Geely и др. 
-			  </figcaption>
-			</figure>
-		</div>
-		<div class="col-12 col-lg-3 ml-auto mr-auto text-center">
-			<figure class="figure">
-			  <img height="200" src="imgs/uber-select.png" class="figure-img rounded" alt="">
-			  <figcaption class="figure-caption"><b>Uber Select (Комфорт-класс)</b><br>Иномарки в исправном техническом состоянии не старше 2005 года (для определенных моделей – не старше 2001г). Например: VW Passat, Ford Mondeo, Toyota Camry, Hyundai Sonata, Skoda Superb или аналогичные модели.
-			  </figcaption>
-			</figure>
-		</div>
-		<div class="col-12 col-lg-3 ml-auto mr-auto text-center">
-			<figure class="figure last-figure">
-			  <img height="200" src="imgs/uber-black.png" class="figure-img rounded" alt="">
-			  <figcaption class="figure-caption"><b>Uber Black (Премиум-класс)</b><br>Автомобили бизнес и представительного класса не старше 2006 года. Например: BMW 5-series / 7-series, Mercedes CLS/E/S-Class, Audi A6/A8, Lexus LS или аналогичные модели.
-			  </figcaption>
-			</figure>
-		</div>
-	</div>	
-	<div class="row">
-		<div class="col col-lg-9 ml-auto mr-auto list-auto-text-wrap text-center">
-			<p>Посмотреть список всех допустимых марок и моделей можно <a href="https://docs.google.com/spreadsheets/d/1XDzUIVBZxCrNIKkjFOc0eiKHNRLmPDaVJKzKcb1lu0E/edit#gid=407632270" target="_blank">здесь</a></p>
-			<p>Все автомобили должны иметь, по меньшей мере, 4 двери, чистый салон, хорошее внешнее состояние и исправные ремни безопасности.</p>
-		</div>
-	</div>  
+	<div id="accordion" role="tablist">
+	  <div class="card">
+	    <div class="card-header" role="tab" id="headingOne">
+	      <h5 class="mb-0">
+	        <a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+	          Collapsible Group Item #1
+	        </a>
+	      </h5>
+	    </div>
+	    <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
+	      <div class="card-body">
+	        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+	      </div>
+	    </div>
+	  </div>
+	  <div class="card">
+	    <div class="card-header" role="tab" id="headingTwo">
+	      <h5 class="mb-0">
+	        <a class="collapsed" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+	          Collapsible Group Item #2
+	        </a>
+	      </h5>
+	    </div>
+	    <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
+	      <div class="card-body">
+	        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+	      </div>
+	    </div>
+	  </div>
+	  <div class="card">
+	    <div class="card-header" role="tab" id="headingThree">
+	      <h5 class="mb-0">
+	        <a class="collapsed" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+	          Collapsible Group Item #3
+	        </a>
+	      </h5>
+	    </div>
+	    <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
+	      <div class="card-body">
+	        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+	      </div>
+	    </div>
+	  </div>
+	</div>
 </div>
 
 <?php require_once 'layouts/footer.php'; ?>

@@ -147,6 +147,10 @@ button[type="submit"]:hover {
 	background-color: #E7382B;
 }
 
+#price-section {
+	background-color: #FFFFCC;
+}
+
 #price-section button {
 	padding-left: 15px;
 	padding-right: 15px;
@@ -198,7 +202,10 @@ button[type="submit"]:hover {
 }
 
 #why-us-section {
-	background-image: url('imgs/bg-light.png');
+	/*background-image: url('imgs/bg-light.png');*/
+	/*background-image: url('imgs/bg-why.jpg');*/
+	background-color: #FFFFCC;
+/*	color: #fff;*/
 }
 
 #why-us-section b {
@@ -212,11 +219,12 @@ button[type="submit"]:hover {
 }
 
 #price-section {
-	/*background-color: #f3f3f3;	*/
+
 }
 
-#portfolio-section  {
-	background-color: #f3f3f3;	
+#portfolio-section b {
+	color: black;
+	/*background-image: url('imgs/bg-light.png');*/
 }
 
 #price-section h2,
@@ -283,7 +291,7 @@ button[type="submit"]:hover {
 }
 
 #faq-section {
-	background-color: #F3F3F3;
+
 }
 
 .footer {
@@ -353,7 +361,7 @@ button[type="submit"]:hover {
 }
 
 .header .list-inline-item:not(:last-child) {
-    margin-right: 35px;
+  margin-right: 35px;
 }
 
 .close {
@@ -422,6 +430,12 @@ button[type="submit"]:hover {
 	#particles-js .logo-text {
 			font-size: 18px;
 	}
+	#portfolio-section .figure {
+		margin-bottom: 30px;
+	}
+	#portfolio-section .last-figure {
+		margin-bottom: 0px;
+	}
 }
 
 @media screen and (min-device-width: 320px) {
@@ -472,6 +486,9 @@ button[type="submit"]:hover {
 	#particles-js .headers-wrap {
 		position: absolute;
 		top: 100px;
+	}
+	.portfolio-row {
+		margin-bottom: 30px;
 	}
 }
 
