@@ -45,7 +45,7 @@
 			  <a href="#" target="_blank"><img src="imgs/portfolio-uber.jpg" class="img-fluid rounded" alt=""></a>
 			  <figcaption class="figure-caption">
 			  	<b>Партнер UBER-такси </b>
-			  	<a href="#" target="_blank">(на сайт)</a>			  	
+			  	<a href="http://uberline.in.ua/" target="_blank">(на сайт)</a>			  	
 			  </figcaption>
 			</figure>
 		</div>
