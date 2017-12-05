@@ -1,0 +1,5 @@
+dvalpinist.port - нет моб
+dsloboda.port - нет моб
+forpeople.port - нет моб
+fountainspro.port - нет моб
+k31-eco.port - моб меню при <480 криво (полоса прокрутки)

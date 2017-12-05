@@ -12,8 +12,8 @@
     <input type="email" class="form-control" placeholder="Введите email, например ivanov@mail.ru" name="email">
   </div>
   <div class="form-group">
-    <label for="exampleFormControlTextarea1">Ваш вопрос</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Введите ваш вопрос" name="question"></textarea>
+    <label for="exampleFormControlTextarea1">Сообщение</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Введите сообщение" name="question"></textarea>
   </div>
   <input id="tariff-field-desk" type="hidden" name="tariff"> 
   <button class="btn-send" type="submit" class="btn btn-primary">Отправить</button>

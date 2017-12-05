@@ -78,8 +78,8 @@
         </div>   
         <div class="row text-center">
           <div class="col col-lg-12 ml-auto mr-auto">
-            <button id="btn-get-consult-desk" type="submit" class="btn btn-primary ml-auto mr-auto d-none d-lg-block">Получить консультацию</button>
-            <button id="btn-get-consult-mob" type="submit" class="btn btn-primary ml-auto mr-auto d-lg-none">Получить консультацию</button>
+            <button id="btn-get-consult-desk" type="submit" class="btn btn-primary ml-auto mr-auto d-none d-lg-block">Заказать выезд специалиста</button>
+            <button id="btn-get-consult-mob" type="submit" class="btn btn-primary ml-auto mr-auto d-lg-none">Заказать выезд специалиста</button>
           </div>  
         </div>     
       </div>  
