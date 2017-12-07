@@ -180,7 +180,8 @@ button[type="submit"]:hover {
 }
 
 #price-section {
-	background-color: #FFFFCC;
+	/*background-color: #FFFFCC;*/
+	/*background-image: url('imgs/bg-2.jpg');*/
 }
 
 #price-section button {
@@ -233,11 +234,11 @@ button[type="submit"]:hover {
 	padding-bottom: 25px;
 }
 
-#why-us-section {
-	/*background-image: url('imgs/bg-light.png');*/
-	/*background-image: url('imgs/bg-why.jpg');*/
+#why-us-section .figure {
+	border: 2px solid #EA9500;
+	padding: 15px;
+	border-radius: 5px;
 	background-color: #FFFFCC;
-/*	color: #fff;*/
 }
 
 #why-us-section b {
@@ -250,13 +251,14 @@ button[type="submit"]:hover {
 	font-size: 22px;
 }
 
-#price-section {
-
-}
-
 #portfolio-section b {
 	color: black;
 	/*background-image: url('imgs/bg-light.png');*/
+}
+
+#portfolio-section {
+	/*background-image: url('imgs/bg-light.png');*/
+	background-color: #f8f8f8;
 }
 
 #price-section h2,
@@ -287,7 +289,8 @@ button[type="submit"]:hover {
 #price-section .tariff {
 	border: 2px solid #FF9900;
 	border-radius: 5px;
-	background-image: url('imgs/bg-light.png'); 
+/*	background-image: url('imgs/bg-light.png'); */
+	background-color: #FFFFCC;
 }
 
 #price-section .tariff-body {

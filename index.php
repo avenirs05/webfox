@@ -8,21 +8,21 @@
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-12 col-lg-3 ml-auto mr-auto text-center">
+		<div class="col-12 col-lg-4 ml-auto mr-auto text-center">
 			<figure class="figure">
 			  <img height="42" src="imgs/bullit-green.png" class="figure-img rounded" alt="">
 			  <figcaption class="figure-caption"><b>Думаем о продажах</b><br>Как заставить посетителя сайта вам перезвонить, написать, оставить заявку? Задача сайта — в итоге превратить интернет-посетителя в реального покупателя. При разработке сайта исходим из этого. 
 			  </figcaption>
 			</figure>
 		</div>
-		<div class="col-12 col-lg-3 ml-auto mr-auto text-center">
+		<div class="col-12 col-lg-4 ml-auto mr-auto text-center">
 			<figure class="figure">
 			  <img height="42" src="imgs/bullit-green.png" class="figure-img rounded" alt="">
 			  <figcaption class="figure-caption"><b>Говорим только правду</b><br>Сайт — только первый этап при построении системы продаж. Клиенты сами по себе не появятся, потребуются расходы на их привлечение. Мы также оказываем услуги в сфере рекламного продвижения.
 			  </figcaption>
 			</figure>
 		</div>
-		<div class="col-12 col-lg-3 ml-auto mr-auto text-center">
+		<div class="col-12 col-lg-4 ml-auto mr-auto text-center">
 			<figure class="figure last-figure">
 			  <img height="42" src="imgs/bullit-green.png" class="figure-img rounded" alt="">
 			  <figcaption class="figure-caption"><b>Максимальная прозрачность</b><br>При взаимодействии с заказчиком сводим к минумуму использование технических терминов. Говорим на понятном вам языке. Пытаемся объяснить сложные вещи простыми словами.   
@@ -178,7 +178,7 @@
 <div id="price-section" class="container-fluid anchor-page">
 	<div class="row">
 		<div class="col col-lg-9 ml-auto mr-auto">
-			<h2 class="text-center">Наши тарифы</h2>
+			<h2 class="text-center">Наши цены</h2>
 		</div>
 	</div>
 	<div class="row">
