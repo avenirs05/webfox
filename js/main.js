@@ -2,11 +2,13 @@ $(function () {
 
     // Выделение цветом нужного пункта меню
     var colorClicked = 'rgb(255, 193, 7)'; //оранжевый #FFC107
-    var colorDefault = 'rgb(255, 255, 153)'  // бледно-желтый #FFFF99
+    var colorDefault = 'rgb(255, 255, 153)';  // бледно-желтый #FFFF99
     var colorHover = '#FFFF66'; 
     var linkDesk = ".header ul li a";
     var linkMob = '#header-mob li a';
     var linkFooter = '.footer a';
+    var colorFooterDefault = 'rgb(122, 122, 122)';
+    var colorFooterHover = '#fff';
 
     var changeColor = function (event) {
         event.preventDefault();
@@ -21,7 +23,6 @@ $(function () {
 
 
     // Прокручивание до нужного раздела 
-
     $(linkDesk + ',' + linkMob + ',' + linkFooter).click(function(event) {           
         $(this).css('color', colorClicked);
         var fixed_offset = 55;
@@ -49,7 +50,7 @@ $(function () {
             $(this).css('color', colorDefault);
         }      
     });
-    
+   
 
     // Маска ввода номера телефона
     $(".phone-field-desk").mask("(+380) 99-999-99-99");
@@ -145,10 +146,12 @@ $(function () {
     }
 
     // Сделать фон navbar при прокрутке (десктоп и мобайл)
+    // А также цвет ссылок в футере чтобы не менялся
     $(window).scroll(function() {
       if ( $(window).scrollTop() !== 0) {
         $("#navbar").css("backgroundColor", "#000");
-      } else $("#navbar").css("backgroundColor", "transparent");      
+      } else $("#navbar").css("backgroundColor", "transparent");    
+      $('.footer a').css('color', colorFooterDefault);  
     }); 
     $(window).scroll(function() {
       if ( $(window).scrollTop() !== 0) {
@@ -161,6 +164,89 @@ $(function () {
         if ( $('.headers-wrap').css('display') == 'block') {
             $('.headers-wrap').hide();
         } else $('.headers-wrap').show();
+    });
+
+    // Подсветка нужным цветом ссылок в футере
+    $('.footer a').mouseover(function() {
+        $(this).css('color', "#fff");   
+    });
+    $('.footer a').mouseleave(function() {
+        $(this).css('color', colorFooterDefault);   
+    }); 
+
+
+    // Появление "Перейти на сайт" в портфолио и затемнение портфолио
+    // № 1
+    $('#img-fluid-1.img-fluid').parent().mouseover(function() {
+        $('#img-overlay-1.img-overlay').css('display', 'flex');
+        $('#img-overlay-1.img-overlay').css('align-items', 'center');
+    });
+    $('#img-fluid-1.img-fluid').parent().mouseleave(function() {
+        $('#img-overlay-1.img-overlay').hide();
+    });
+    // № 2
+    $('#img-fluid-2.img-fluid').parent().mouseover(function() {
+        $('#img-overlay-2.img-overlay').css('display', 'flex');
+        $('#img-overlay-2.img-overlay').css('align-items', 'center');
+    });
+    $('#img-fluid-2.img-fluid').parent().mouseleave(function() {
+        $('#img-overlay-2.img-overlay').hide();
+    });
+    // № 3
+    $('#img-fluid-3.img-fluid').parent().mouseover(function() {
+        $('#img-overlay-3.img-overlay').css('display', 'flex');
+        $('#img-overlay-3.img-overlay').css('align-items', 'center');
+    });
+    $('#img-fluid-3.img-fluid').parent().mouseleave(function() {
+        $('#img-overlay-3.img-overlay').hide();
+    });
+    // № 4
+    $('#img-fluid-4.img-fluid').parent().mouseover(function() {
+        $('#img-overlay-4.img-overlay').css('display', 'flex');
+        $('#img-overlay-4.img-overlay').css('align-items', 'center');
+    });
+    $('#img-fluid-4.img-fluid').parent().mouseleave(function() {
+        $('#img-overlay-4.img-overlay').hide();
+    });
+    // № 5
+    $('#img-fluid-5.img-fluid').parent().mouseover(function() {
+        $('#img-overlay-5.img-overlay').css('display', 'flex');
+        $('#img-overlay-5.img-overlay').css('align-items', 'center');
+    });
+    $('#img-fluid-5.img-fluid').parent().mouseleave(function() {
+        $('#img-overlay-5.img-overlay').hide();
+    });
+    // № 6
+    $('#img-fluid-6.img-fluid').parent().mouseover(function() {
+        $('#img-overlay-6.img-overlay').css('display', 'flex');
+        $('#img-overlay-6.img-overlay').css('align-items', 'center');
+    });
+    $('#img-fluid-6.img-fluid').parent().mouseleave(function() {
+        $('#img-overlay-6.img-overlay').hide();
+    });
+    // № 7
+    $('#img-fluid-7.img-fluid').parent().mouseover(function() {
+        $('#img-overlay-7.img-overlay').css('display', 'flex');
+        $('#img-overlay-7.img-overlay').css('align-items', 'center');
+    });
+    $('#img-fluid-7.img-fluid').parent().mouseleave(function() {
+        $('#img-overlay-7.img-overlay').hide();
+    });
+    // № 8
+    $('#img-fluid-8.img-fluid').parent().mouseover(function() {
+        $('#img-overlay-8.img-overlay').css('display', 'flex');
+        $('#img-overlay-8.img-overlay').css('align-items', 'center');
+    });
+    $('#img-fluid-8.img-fluid').parent().mouseleave(function() {
+        $('#img-overlay-8.img-overlay').hide();
+    });
+    // № 9
+    $('#img-fluid-9.img-fluid').parent().mouseover(function() {
+        $('#img-overlay-9.img-overlay').css('display', 'flex');
+        $('#img-overlay-9.img-overlay').css('align-items', 'center');
+    });
+    $('#img-fluid-9.img-fluid').parent().mouseleave(function() {
+        $('#img-overlay-9.img-overlay').hide();
     });
 
 });

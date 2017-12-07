@@ -6,10 +6,10 @@
 		</div>
 		<div class="col-12 col-lg-3">
 			<a href="/#why-us-section">Почему мы</a><br>
-			<span>Наши работы</span>
+			<a href="/#portfolio-section">Наши работы</a>
 		</div>
 		<div class="col-12 col-lg-3">
-			<span>Цены</span><br>
+			<a href="/#price-section">Цены</a><br>
 			<span>Обратный звонок</span>
 		</div>
 		<div class="col-12 col-lg-3">
