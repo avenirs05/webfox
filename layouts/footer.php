@@ -5,7 +5,7 @@
 			<span><b>email:</b> info@uberline.in.ua</span>
 		</div>
 		<div class="col-12 col-lg-3">
-			<span>Почему мы</span><br>
+			<a href="/#why-us-section">Почему мы</a><br>
 			<span>Наши работы</span>
 		</div>
 		<div class="col-12 col-lg-3">

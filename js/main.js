@@ -6,6 +6,7 @@ $(function () {
     var colorHover = '#FFFF66'; 
     var linkDesk = ".header ul li a";
     var linkMob = '#header-mob li a';
+    var linkFooter = '.footer a';
 
     var changeColor = function (event) {
         event.preventDefault();
@@ -20,7 +21,8 @@ $(function () {
 
 
     // Прокручивание до нужного раздела 
-    $(linkDesk + ',' + linkMob).click(function(event) {           
+
+    $(linkDesk + ',' + linkMob + ',' + linkFooter).click(function(event) {           
         $(this).css('color', colorClicked);
         var fixed_offset = 55;
         $('html,body').stop().animate({ scrollTop: $(this.hash).offset().top - fixed_offset}, 1,
@@ -153,5 +155,12 @@ $(function () {
         $("#navbar-mob").css("backgroundColor", "#000");
       }    
     }); 
+
+    // Спрятать заголовки на мобильном при нажатии на меню-гамбургер
+    $('.navbar-toggler').click(function() { 
+        if ( $('.headers-wrap').css('display') == 'block') {
+            $('.headers-wrap').hide();
+        } else $('.headers-wrap').show();
+    });
 
 });

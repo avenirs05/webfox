@@ -206,7 +206,7 @@
 </div>
 
 <!-- Вопрос - Ответ -->
-<div id="faq-section" class="container-fluid anchor-page">
+<!-- <div id="faq-section" class="container-fluid anchor-page">
 	<div class="row">
 		<div class="col">
 			<h2 class="text-center">Вопросы и ответы</h2>
@@ -256,7 +256,7 @@
 	    </div>
 	  </div>
 	</div>
-</div>
+</div> -->
 
 <?php require_once 'layouts/footer.php'; ?>
 

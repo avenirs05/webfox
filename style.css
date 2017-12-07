@@ -307,6 +307,14 @@ button[type="submit"]:hover {
 	padding-top: 15px;
 }
 
+.footer a {
+	color: rgb(122, 122, 122);	
+}
+
+.footer a:hover {
+	color: #fff;	
+}
+
 
 #faq-section form,
 #faq-section a {

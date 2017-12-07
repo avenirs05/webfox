@@ -45,7 +45,7 @@
               <li class="list-inline-item"><a href="/#why-us-section">Почему мы</a></li>
               <li class="list-inline-item"><a href="/#portfolio-section">Наши работы</a></li>
               <li class="list-inline-item"><a href="/#price-section">Цены</a></li> 
-              <li class="list-inline-item"><a href="/#faq-section">Частые вопросы</a></li>       
+              <!-- <li class="list-inline-item"><a href="/#faq-section">Частые вопросы</a></li>  -->  
             </ul>
             <div class="col-auto d-flex align-items-center justify-content-end contacts">        
               <img class="phone-icon" src="imgs/phone.svg" width="17" height="17" alt="">
@@ -91,8 +91,8 @@
             <ul class="col list-unstyled">
               <li><a href="#why-us-section">Почему мы</a></li><br>
               <li><a href="#portfolio-section">Наши работы</a></li><br>
-              <li><a href="#price-section">Цены</a></li><br>
-              <li><a href="#faq-section">Частые вопросы</a></li> 
+              <li><a href="#price-section">Цены</a></li>
+              <!-- <li><a href="#faq-section">Частые вопросы</a></li> --> 
             </ul>
           </div>
         </div>
