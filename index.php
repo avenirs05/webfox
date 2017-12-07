@@ -36,13 +36,13 @@
 <div id="portfolio-section" class="container-fluid anchor-page">
 	<div class="row">
 		<div class="col">
-			<h2 class="text-center">Наши работы</h2>
+			<h2 class="text-center">Некоторые наши работы</h2>
 		</div>
 	</div>	
 	<div class="row portfolio-row">
 		<div class="col-12 col-lg-4 ml-auto mr-auto text-center">
 			<figure class="figure">
-			  <a href="#" target="_blank"><img src="imgs/portfolio-uber.jpg" class="img-fluid rounded" alt=""></a>
+			  <a href="http://uberline.in.ua/" target="_blank"><img src="imgs/portfolio-uber.jpg" class="img-fluid rounded" alt=""></a>
 			  <figcaption class="figure-caption">
 			  	<b>Партнер UBER-такси </b>
 			  	<a href="http://uberline.in.ua/" target="_blank">(на сайт)</a>			  	
@@ -51,19 +51,19 @@
 		</div>
 		<div class="col-12 col-lg-4 ml-auto mr-auto text-center">
 			<figure class="figure">
-			  <a href="#" target="_blank"><img src="imgs/portfolio-uber.jpg" class="img-fluid rounded" alt=""></a>
+			  <a href="http://mart.pretenzor.ru/" target="_blank"><img src="imgs/portfolio-mart.jpg" class="img-fluid rounded" alt=""></a>
 			  <figcaption class="figure-caption">
-			  	<b>Партнер UBER-такси </b>
-			  	<a href="#" target="_blank">(на сайт)</a>			  	
+			  	<b>Оптовый продавец натуральных масел </b>
+			  	<a href="http://mart.pretenzor.ru/" target="_blank">(на сайт)</a>			  	
 			  </figcaption>
 			</figure>
 		</div>
 		<div class="col-12 col-lg-4 ml-auto mr-auto text-center">
 			<figure class="figure">
-			  <a href="#" target="_blank"><img src="imgs/portfolio-uber.jpg" class="img-fluid rounded" alt=""></a>
+			  <a href="http://yakub.pretenzor.ru/" target="_blank"><img src="imgs/portfolio-yakub.jpg" class="img-fluid rounded" alt=""></a>
 			  <figcaption class="figure-caption">
-			  	<b>Партнер UBER-такси </b>
-			  	<a href="#" target="_blank">(на сайт)</a>			  	
+			  	<b>Лечение психических расстройств </b>
+			  	<a href="http://yakub.pretenzor.ru/" target="_blank">(на сайт)</a>			  	
 			  </figcaption>
 			</figure>
 		</div>
@@ -71,28 +71,28 @@
 	<div class="row portfolio-row">
 		<div class="col-12 col-lg-4 ml-auto mr-auto text-center">
 			<figure class="figure">
-			  <a href="#" target="_blank"><img src="imgs/portfolio-uber.jpg" class="img-fluid rounded" alt=""></a>
+			  <a href="http://mart.pretenzor.ru/" target="_blank"><img src="imgs/portfolio-aska.jpg" class="img-fluid rounded" alt=""></a>
 			  <figcaption class="figure-caption">
-			  	<b>Партнер UBER-такси </b>
-			  	<a href="#" target="_blank">(на сайт)</a>			  	
+			  	<b>Дистрибьютор кондитерских изделий </b>
+			  	<a href="http://mart.pretenzor.ru/" target="_blank">(на сайт)</a>			  	
 			  </figcaption>
 			</figure>
 		</div>
 		<div class="col-12 col-lg-4 ml-auto mr-auto text-center">
 			<figure class="figure">
-			  <a href="#" target="_blank"><img src="imgs/portfolio-uber.jpg" class="img-fluid rounded" alt=""></a>
+			  <a href="http://bes.pretenzor.ru/" target="_blank"><img src="imgs/portfolio-bes.jpg" class="img-fluid rounded" alt=""></a>
 			  <figcaption class="figure-caption">
-			  	<b>Партнер UBER-такси </b>
-			  	<a href="#" target="_blank">(на сайт)</a>			  	
+			  	<b>Международная перевозка грузов </b>
+			  	<a href="http://bes.pretenzor.ru/" target="_blank">(на сайт)</a>			  	
 			  </figcaption>
 			</figure>
 		</div>
 		<div class="col-12 col-lg-4 ml-auto mr-auto text-center">
 			<figure class="figure">
-			  <a href="#" target="_blank"><img src="imgs/portfolio-uber.jpg" class="img-fluid rounded" alt=""></a>
+			  <a href="http://inhelp.pretenzor.ru/" target="_blank"><img src="imgs/portfolio-inhelp.jpg" class="img-fluid rounded" alt=""></a>
 			  <figcaption class="figure-caption">
-			  	<b>Партнер UBER-такси </b>
-			  	<a href="#" target="_blank">(на сайт)</a>			  	
+			  	<b>Юридическая помощь в строительных спорах </b>
+			  	<a href="http://inhelp.pretenzor.ru/" target="_blank">(на сайт)</a>			  	
 			  </figcaption>
 			</figure>
 		</div>
@@ -100,28 +100,28 @@
 	<div class="row">
 		<div class="col-12 col-lg-4 ml-auto mr-auto text-center">
 			<figure class="figure">
-			  <a href="#" target="_blank"><img src="imgs/portfolio-uber.jpg" class="img-fluid rounded" alt=""></a>
+			  <a href="http://italy.pretenzor.ru/" target="_blank"><img src="imgs/portfolio-italy.jpg" class="img-fluid rounded" alt=""></a>
 			  <figcaption class="figure-caption">
-			  	<b>Партнер UBER-такси </b>
-			  	<a href="#" target="_blank">(на сайт)</a>			  	
+			  	<b>Пошив шуб из соболя </b>
+			  	<a href="http://italy.pretenzor.ru/" target="_blank">(на сайт)</a>			  	
 			  </figcaption>
 			</figure>
 		</div>
 		<div class="col-12 col-lg-4 ml-auto mr-auto text-center">
 			<figure class="figure">
-			  <a href="#" target="_blank"><img src="imgs/portfolio-uber.jpg" class="img-fluid rounded" alt=""></a>
+			  <a href="http://atlant.pretenzor.ru/" target="_blank"><img src="imgs/portfolio-atlant.jpg" class="img-fluid rounded" alt=""></a>
 			  <figcaption class="figure-caption">
-			  	<b>Партнер UBER-такси </b>
-			  	<a href="#" target="_blank">(на сайт)</a>			  	
+			  	<b>Производство пластиковых погребов </b>
+			  	<a href="http://atlant.pretenzor.ru/" target="_blank">(на сайт)</a>			  	
 			  </figcaption>
 			</figure>
 		</div>
 		<div class="col-12 col-lg-4 ml-auto mr-auto text-center">
 			<figure class="figure last-figure">
-			  <a href="#" target="_blank"><img src="imgs/portfolio-uber.jpg" class="img-fluid rounded" alt=""></a>
+			  <a href="http://sun.pretenzor.ru/" target="_blank"><img src="imgs/portfolio-sun.jpg" class="img-fluid rounded" alt=""></a>
 			  <figcaption class="figure-caption">
-			  	<b>Партнер UBER-такси </b>
-			  	<a href="#" target="_blank">(на сайт)</a>			  	
+			  	<b>Создание дизайн-интерьера </b>
+			  	<a href="http://sun.pretenzor.ru/" target="_blank">(на сайт)</a>			  	
 			  </figcaption>
 			</figure>
 		</div>

@@ -296,11 +296,17 @@ button[type="submit"]:hover {
 
 .footer {
 	font-size: 14px;
+	color: rgb(122, 122, 122);	
 }
 
 .footer .copyright {
 	font-size: 12px;
 }
+
+.footer.navbar {
+	padding-top: 15px;
+}
+
 
 #faq-section form,
 #faq-section a {

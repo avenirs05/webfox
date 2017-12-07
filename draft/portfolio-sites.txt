@@ -3,3 +3,14 @@ dsloboda.port - нет моб
 forpeople.port - нет моб
 fountainspro.port - нет моб
 k31-eco.port - моб меню при <480 криво (полоса прокрутки)
+pts.kpknb.port
+
+martyanov.port
+andrey-yakubowskiy.port
+askatrade.port
+bes-cargo.port
+inhelp.port
+italy.port
+
+
+

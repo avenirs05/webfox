@@ -1,14 +1,23 @@
-<div class="container-fluid header">
+<div class="container-fluid">
 	<nav class="row navbar navbar-dark bg-dark footer">
-		<div class="col">
-			<span><b>Тел.:</b> +380 99 290 00 00</span> 
-		</div>
-		<div class="w-100"></div>
-		<div class="col">
+		<div class="col-12 col-lg-3">
+			<span><b>Тел.:</b> +380 99 290 00 00</span><br>
 			<span><b>email:</b> info@uberline.in.ua</span>
 		</div>
+		<div class="col-12 col-lg-3">
+			<span>Почему мы</span><br>
+			<span>Наши работы</span>
+		</div>
+		<div class="col-12 col-lg-3">
+			<span>Цены</span><br>
+			<span>Обратный звонок</span>
+		</div>
+		<div class="col-12 col-lg-3">
+			<span>Заказать выезд специалиста</span><br>
+			<span>Частые вопросы</span>
+		</div>
 		<div class="w-100"></div>
-		<div class="col text-center d-none d-lg-block">
+		<div class="col text-center d-none d-lg-block"><br>
 			<span class="copyright">&copy; smartfox.su, 2017</span>
 		</div>
 		<div class="col text-left d-lg-none">
