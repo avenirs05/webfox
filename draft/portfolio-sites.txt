@@ -11,6 +11,16 @@ askatrade.port
 bes-cargo.port
 inhelp.port
 italy.port
+atlant.port
+sunwavestudio.port
 
+aska.pretenzor.ru
+atlant.pretenzor.ru
+bes.pretenzor.ru
+inhelp.pretenzor.ru
+italy.pretenzor.ru
+mart.pretenzor.ru
+sun.pretenzor.ru
+yakub.pretenzor.ru
 
 

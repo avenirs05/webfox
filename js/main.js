@@ -104,6 +104,20 @@ $(function () {
         $('#btn-get-consult-mob').hide(); // когда появляется попап, кнопка "Получить консультацию" исчезает       
         $('#modal-callback-mob').modal('show'); 
     });
+    // Кнопка "Обратный звонок" - в футере
+    $('#btn-callback-footer-desk').click(function() { 
+        $('#modal-callback-desk').modal('show'); 
+    });
+    $('#btn-callback-footer-mob').click(function() { 
+        $('#modal-callback-mob').modal('show'); 
+    });
+    // Кнопка "Заказать выезд специалиста" - в футере
+    $('#btn-get-consult-footer-desk').click(function() { 
+        $('#modal-form-desk').modal('show'); 
+    });
+    $('#btn-get-consult-footer-mob').click(function() { 
+        $('#modal-form-mob').modal('show'); 
+    });
     // Модальное окно bootstrap
 
 
