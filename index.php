@@ -50,13 +50,12 @@
 			  </a>
 			  <figcaption class="figure-caption">
 			  	<b>Партнер UBER-такси </b>
-<!-- 			  	<a href="http://uberline.in.ua/" target="_blank">(на сайт)</a>	 -->		  	
 			  </figcaption>
 			</figure>
 		</div>
 		<div class="col-12 col-lg-4 ml-auto mr-auto text-center">
 			<figure class="figure">
-			  <a href="http://mart.pretenzor.ru/" target="_blank">
+			  <a href="http://martyanov365.ru/" target="_blank">
 			  	<img id="img-fluid-2" src="imgs/portfolio-mart.jpg" class="img-fluid rounded" alt="">
 		  		<div id="img-overlay-2" class="img-overlay">
 		  			<div class="to-site ml-auto mr-auto">Перейти на сайт</div>
@@ -64,13 +63,12 @@
 			  </a>
 			  <figcaption class="figure-caption">
 			  	<b>Оптовый продавец натуральных масел </b>
-<!-- 			  	<a href="http://mart.pretenzor.ru/" target="_blank">(на сайт)</a>		 -->	  	
 			  </figcaption>
 			</figure>
 		</div>
 		<div class="col-12 col-lg-4 ml-auto mr-auto text-center">
 			<figure class="figure">
-			  <a href="http://yakub.pretenzor.ru/" target="_blank">
+			  <a href="http://yakub-center.ru/" target="_blank">
 			  	<img id="img-fluid-3" src="imgs/portfolio-yakub.jpg" class="img-fluid rounded" alt="">
 		  		<div id="img-overlay-3" class="img-overlay">
 		  			<div class="to-site ml-auto mr-auto">Перейти на сайт</div>
@@ -78,7 +76,6 @@
 			  </a>
 			  <figcaption class="figure-caption">
 			  	<b>Лечение психических расстройств </b>
-<!-- 			  	<a href="http://yakub.pretenzor.ru/" target="_blank">(на сайт)</a> -->			  	
 			  </figcaption>
 			</figure>
 		</div>
@@ -86,7 +83,7 @@
 	<div class="row portfolio-row">
 		<div class="col-12 col-lg-4 ml-auto mr-auto text-center">
 			<figure class="figure">
-			  <a href="http://aska.pretenzor.ru/" target="_blank">
+			  <a href="http://aska-trade.ru/" target="_blank">
 			  	<img id="img-fluid-4" src="imgs/portfolio-aska.jpg" class="img-fluid rounded" alt="">
 		  		<div id="img-overlay-4" class="img-overlay">
 		  			<div class="to-site ml-auto mr-auto">Перейти на сайт</div>
@@ -94,13 +91,12 @@
 			  </a>
 			  <figcaption class="figure-caption">
 			  	<b>Дистрибьютор кондитерских изделий </b>
-<!-- 			  	<a href="http://mart.pretenzor.ru/" target="_blank">(на сайт)</a>			  --> 	
 			  </figcaption>
 			</figure>
 		</div>
 		<div class="col-12 col-lg-4 ml-auto mr-auto text-center">
 			<figure class="figure">
-			  <a href="http://bes.pretenzor.ru/" target="_blank">
+			  <a href="http://bescompany.ru/" target="_blank">
 			  	<img id="img-fluid-5" src="imgs/portfolio-bes.jpg" class="img-fluid rounded" alt="">
 		  		<div id="img-overlay-5" class="img-overlay">
 		  			<div class="to-site ml-auto mr-auto">Перейти на сайт</div>
@@ -108,21 +104,19 @@
 			  </a>
 			  <figcaption class="figure-caption">
 			  	<b>Международная перевозка грузов </b>
-<!-- 			  	<a href="http://bes.pretenzor.ru/" target="_blank">(на сайт)</a>	 -->		  	
 			  </figcaption>
 			</figure>
 		</div>
 		<div class="col-12 col-lg-4 ml-auto mr-auto text-center">
 			<figure class="figure">
-			  <a href="http://inhelp.pretenzor.ru/" target="_blank">
-			  	<img id="img-fluid-6" src="imgs/portfolio-inhelp.jpg" class="img-fluid rounded" alt="">
+			  <a href="http://paramita-clinic.ru/" target="_blank">
+			  	<img id="img-fluid-6" src="imgs/portfolio-para.jpg" class="img-fluid rounded" alt="">
 		  		<div id="img-overlay-6" class="img-overlay">
 		  			<div class="to-site ml-auto mr-auto">Перейти на сайт</div>
 		  	  </div>
 			  </a>
 			  <figcaption class="figure-caption">
-			  	<b>Юридическая помощь в строительных спорах </b>
-<!-- 			  	<a href="http://inhelp.pretenzor.ru/" target="_blank">(на сайт)</a>	 -->		  	
+			  	<b>Клиника Восточной медицины </b>
 			  </figcaption>
 			</figure>
 		</div>
@@ -130,7 +124,7 @@
 	<div class="row">
 		<div class="col-12 col-lg-4 ml-auto mr-auto text-center">
 			<figure class="figure">
-			  <a href="http://italy.pretenzor.ru/" target="_blank">
+			  <a href="http://italylegend.ru/" target="_blank">
 			  	<img id="img-fluid-7" src="imgs/portfolio-italy.jpg" class="img-fluid rounded" alt="">
 		  		<div id="img-overlay-7" class="img-overlay">
 		  			<div class="to-site ml-auto mr-auto">Перейти на сайт</div>
@@ -138,13 +132,12 @@
 			  </a>
 			  <figcaption class="figure-caption">
 			  	<b>Пошив шуб из соболя </b>
-<!-- 			  	<a href="http://italy.pretenzor.ru/" target="_blank">(на сайт)</a> -->			  	
 			  </figcaption>
 			</figure>
 		</div>
 		<div class="col-12 col-lg-4 ml-auto mr-auto text-center">
 			<figure class="figure">
-			  <a href="http://atlant.pretenzor.ru/" target="_blank">
+			  <a href="http://atlantpogreb.ru/" target="_blank">
 			  	<img id="img-fluid-8" src="imgs/portfolio-atlant.jpg" class="img-fluid rounded" alt="">
 		  		<div id="img-overlay-8" class="img-overlay">
 		  			<div class="to-site ml-auto mr-auto">Перейти на сайт</div>
@@ -152,13 +145,12 @@
 			  </a>
 			  <figcaption class="figure-caption">
 			  	<b>Производство пластиковых погребов </b>
-<!-- 			  	<a href="http://atlant.pretenzor.ru/" target="_blank">(на сайт)</a>		 -->	  	
 			  </figcaption>
 			</figure>
 		</div>
 		<div class="col-12 col-lg-4 ml-auto mr-auto text-center">
 			<figure class="figure last-figure">
-			  <a href="http://sun.pretenzor.ru/" target="_blank">
+			  <a href="http://sunwave-studio.ru/" target="_blank">
 			  	<img id="img-fluid-9" src="imgs/portfolio-sun.jpg" class="img-fluid rounded" alt="">
 		  		<div id="img-overlay-9" class="img-overlay">
 		  			<div class="to-site ml-auto mr-auto">Перейти на сайт</div>
@@ -166,7 +158,6 @@
 			  </a>
 			  <figcaption class="figure-caption">
 			  	<b>Создание дизайн-интерьера </b>
-<!-- 			  	<a href="http://sun.pretenzor.ru/" target="_blank">(на сайт)</a> -->			  	
 			  </figcaption>
 			</figure>
 		</div>
@@ -250,7 +241,7 @@
 </div>
 
 <!-- Вопрос - Ответ -->
-<div id="faq-section" class="container-fluid anchor-page">
+<!-- <div id="faq-section" class="container-fluid anchor-page">
 	<div class="row">
 		<div class="col">
 			<h2 class="text-center">Вопросы и ответы</h2>
@@ -300,7 +291,7 @@
 	    </div>
 	  </div>
 	</div>
-</div>
+</div> -->
 
 <?php require_once 'layouts/footer.php'; ?>
 

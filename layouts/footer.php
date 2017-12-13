@@ -9,15 +9,12 @@
 			<a href="/#portfolio-section">Наши работы</a>
 		</div>
 		<div class="col-12 col-lg-3">
-			<a href="/#why-us-section">Почему мы</a><br>
+			<span class="d-none d-lg-block" id="btn-get-consult-footer-desk">Заказать выезд специалиста</span>
+			<span class="d-lg-none" id="btn-get-consult-footer-mob">Заказать выезд специалиста</span>	
 			<span class="d-none d-lg-block" id="btn-callback-footer-desk">Обратный звонок</span>
 			<span class="d-lg-none" id="btn-callback-footer-mob">Обратный звонок</span>
 		</div>
-		<div class="col-12 col-lg-3">
-			<a href="/#why-us-section">Почему мы</a><br>
-			<span class="d-none d-lg-block" id="btn-get-consult-footer-desk">Заказать выезд специалиста</span>
-			<span class="d-lg-none" id="btn-get-consult-footer-mob">Заказать выезд специалиста</span>	
-		</div>
+		<div class="col-12 col-lg-3"></div>
 		<div class="w-100"></div>
 		<div class="col text-center d-none d-lg-block"><br>
 			<span class="copyright">&copy; smartfox.su, 2017</span>
